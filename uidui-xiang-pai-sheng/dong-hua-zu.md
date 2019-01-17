@@ -14,27 +14,27 @@ AnimationGroup:GetProgress\(\) - 以单位值\[0,1\]的形式返回此动画的�
 
 AnimationGroup:IsDone\(\) - 如果组已完成播放，则返回true。.
 
-AnimationGroup:IsPlaying\(\) - Returns true if the group is playing.
+AnimationGroup:IsPlaying\(\) - 如果组正在播放，则返回true。
 
-AnimationGroup:IsPaused\(\) - Returns true if the group is paused.
+AnimationGroup:IsPaused\(\) - 如果组暂停，则返回true。
 
-AnimationGroup:GetDuration\(\) - Gets the total duration across all child Animations that the group will take to complete one loop cycle.
+AnimationGroup:GetDuration\(\) - 获取该组将完成一个循环周期所需的所有子动画的总持续时间。
 
-[AnimationGroup:GetIgnoreFramerateThrottle](https://wow.gamepedia.com/API_AnimationGroup_GetIgnoreFramerateThrottle)\(\) - Returns true if the global animation framerate throttle is ignored by this animation group.
+[AnimationGroup:GetIgnoreFramerateThrottle](https://wow.gamepedia.com/API_AnimationGroup_GetIgnoreFramerateThrottle)\(\) - 如果此动画组忽略全局动画帧速率限制，则返回true。
 
-[AnimationGroup:SetIgnoreFramerateThrottle](https://wow.gamepedia.com/API_AnimationGroup_SetIgnoreFramerateThrottle)\(ignore\) - Sets whether the global animation framerate throttle is ignored by this animation group.
+[AnimationGroup:SetIgnoreFramerateThrottle](https://wow.gamepedia.com/API_AnimationGroup_SetIgnoreFramerateThrottle)\(ignore\) - 设置此动画组是否忽略全局动画帧速率限制。
 
-AnimationGroup:SetLooping\(loopType\) - Sets the type of looping for the group. Input is \[NONE, REPEAT, or BOUNCE\].
+AnimationGroup:SetLooping\(loopType\) - 设置组的循环类型。输入为 \[NONE, REPEAT, 或BOUNCE\].
 
-AnimationGroup:GetLooping\(\) - Gets the type of looping for the group.
+AnimationGroup:GetLooping\(\) - 获取组的循环类型。
 
-AnimationGroup:GetLoopState\(\) - Gets the current loop state of the group. Output is \[NONE, FORWARD, or REVERSE\].
+AnimationGroup:GetLoopState\(\) - 获取组的当前循环状态。输出为\[NONE，FORWARD或REVERSE\]。
 
-[AnimationGroup:CreateAnimation](https://wow.gamepedia.com/API_AnimationGroup_CreateAnimation)\("animationType", \["name"\[,"inheritsFrom"\]\]\) - Create and return an Animation as a child of this group.
+[AnimationGroup:CreateAnimation](https://wow.gamepedia.com/API_AnimationGroup_CreateAnimation)\("animationType", \["name"\[,"inheritsFrom"\]\]\) - 创建动画并将其作为此组的子项返回。
 
-AnimationGroup:HasScript\("handler"\) - Same as Frame:HasScript. Input is \[OnLoad, OnPlay, OnPaused, OnStop, OnFinished, OnUpdate\].
+AnimationGroup:HasScript\("handler"\) - 与Frame:HasScript相同. 输入为\[OnLoad, OnPlay, OnPaused, OnStop, OnFinished, OnUpdate\].
 
-AnimationGroup:GetScript\("handler"\) - Same as Frame:GetScript. Input is \[OnLoad, OnPlay, OnPaused, OnStop, OnFinished, OnUpdate\].
+AnimationGroup:GetScript\("handler"\) -与Frame:GetScript相同.输入为 \[OnLoad, OnPlay, OnPaused, OnStop, OnFinished, OnUpdate\].
 
-AnimationGroup:SetScript\("handler", function\) - Same as Frame:SetScript. Input is \[OnLoad, OnPlay, OnPaused, OnStop, OnFinished, OnUpdate\].
+AnimationGroup:SetScript\("handler", function\) - 与Frame:SetScript相同. 输入为\[OnLoad, OnPlay, OnPaused, OnStop, OnFinished, OnUpdate\].
 
