@@ -26,21 +26,21 @@ Frame:EnableMouseWheel\(enableFlag\) - 设置此框架是否将获得鼠标滚�
 
 [Frame:GetAttribute](https://wow.gamepedia.com/API_Frame_GetAttribute)\(prefix, name, suffix\) - 返回\(prefix..name..suffix\)的第一个现有属性，\(“\*”.. name..suffix\)，\(prefix..name ..“\*”\)，\(“\*”.. name ..“\*“\)， \(name\)。
 
-Frame:GetBackdrop\(\) - Creates and returns a backdrop table suitable for use in SetBackdrop - New in 1.11.
+Frame:GetBackdrop\(\) - 创建并返回适合在SetBackdrop中使用的背景表 -  1.11中的新增功能。
 
-Frame:GetBackdropBorderColor\(\) - Gets the frame's backdrop border color \(r, g, b, a\)- New in 1.11.
+Frame:GetBackdropBorderColor\(\) - 获取框架的背景边框颜色（r，g，b，a） -  1.11中的新增内容。
 
-Frame:GetBackdropColor\(\) - Gets the frame's backdrop color \(r, g, b, a\)- New in 1.11.
+Frame:GetBackdropColor\(\) - 获取框架的背景颜色（r，g，b，a） -  1.11中的新增内容。
 
-[Frame:GetChildren](https://wow.gamepedia.com/API_Frame_GetChildren)\(\) - Get the list of "children" \(frames and things derived from frames\) of this frame.
+[Frame:GetChildren](https://wow.gamepedia.com/API_Frame_GetChildren)\(\) - 获取此框架的“子”列表（框架和从框架派生的东西）。
 
-[Frame:GetClampRectInsets](https://wow.gamepedia.com/API_Frame_GetClampRectInsets)\(\) - Gets the modifiers to the frame's rectangle used for clamping the frame to screen.
+[Frame:GetClampRectInsets](https://wow.gamepedia.com/API_Frame_GetClampRectInsets)\(\) - 获取用于将框架堆叠到屏幕的框架矩形的修饰符。
 
-Frame:GetDepth\(\) - New in 3.0.8
+Frame:GetDepth\(\) - 3.0.8中的新功能
 
-Frame:GetEffectiveAlpha\(\) - Returns the effective alpha of a frame. - Since 2.1.
+Frame:GetEffectiveAlpha\(\) - 返回框架的有效alpha。- 自2.1。
 
-Frame:GetEffectiveDepth\(\) - New in 3.0.8
+Frame:GetEffectiveDepth\(\) - 3.0.8中的新功能
 
 [Frame:GetEffectiveScale](https://wow.gamepedia.com/API_Frame_GetEffectiveScale)\(\) - Get the scale factor of this object relative to the root window.
 
