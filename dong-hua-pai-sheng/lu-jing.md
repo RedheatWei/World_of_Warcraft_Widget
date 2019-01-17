@@ -10,5 +10,5 @@ Path:GetCurve\(\) - 获取当前曲线类型。
 
 Path:GetMaxOrder\(\) - 获取Path的最大顺序。
 
-Path:SetCurve\("curveType"\) - Sets the curve type, which can be "SMOOTH" or "NONE".
+Path:SetCurve\("curveType"\) - 设置曲线类型，可以是“SMOOTH”或“NONE”。
 
