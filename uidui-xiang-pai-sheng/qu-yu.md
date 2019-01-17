@@ -34,7 +34,7 @@ Region:GetRect\(\) - 获取框架的左，底部，宽度，高度。
 
 [Region:Hide](https://wow.gamepedia.com/API_Region_Hide)\(\) - 将此对象设置为隐藏（它及其所有子项将消失）。
 
-Region:IsDragging\(\) - True if this Region or its Parent is being dragged. - New in 3.1.0
+Region:IsDragging\(\) - 如果正在拖动此Region或其Parent，则为True。-  3.1.0中的新功能
 
 [Region:IsProtected](https://wow.gamepedia.com/API_Region_IsProtected)\(\) - Determine if this object can be manipulated in certain ways by tainted code in combat or not
 
