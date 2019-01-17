@@ -22,11 +22,11 @@ Animation:GetElapsed\(\) - 获取动画播放的时间量（以秒为单位）�
 
 Animation:SetStartDelay\(delaySec\) - 设置动画在开始进度之前延迟的秒数。
 
-Animation:GetStartDelay\(\) - Get the number of seconds that the animation delays before it starts to progress.
+Animation:GetStartDelay\(\) - 获取动画在开始进度之前延迟的秒数。
 
-Animation:SetEndDelay\(delaySec\) - Set the number of seconds the animation delays after finishing.
+Animation:SetEndDelay\(delaySec\) - 设置完成后动画延迟的秒数。
 
-Animation:GetEndDelay\(\) - Get the number of seconds the animation delays after finishing.
+Animation:GetEndDelay\(\) - 获取完成后动画延迟的秒数。
 
 Animation:SetDuration\(durationSec\) - Set the number of seconds it takes for the animation to progress from start to finish.
 
