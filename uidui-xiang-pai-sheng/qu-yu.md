@@ -12,7 +12,7 @@ Region:CreateAnimationGroup\(\["name"\[,"inheritsFrom"\]\]\) - 创建一个新�
 
 Region:GetAnimationGroups\(\) - 返回作为此Region的子项的所有AnimationGroup。-  3.1.0中的新功能
 
-[Region:GetBottom](https://wow.gamepedia.com/API_Region_GetBottom)\(\) - Get the y location of the bottom edge of this frame - Moved in 1.10.
+[Region:GetBottom](https://wow.gamepedia.com/API_Region_GetBottom)\(\) - 获取此框架底边的y位置 - Moved in 1.10。
 
 Region:GetCenter\(\) - Get the coordinates of the center of this frame - Moved in 1.10.
 
@@ -59,7 +59,4 @@ Region:SetSize\(width,height\) - Sets the width and the height of the object as 
 [Region:Show](https://wow.gamepedia.com/API_Region_Show)\(\) - Set this object to shown \(it will appear if its parent is visible\).
 
 Region:StopAnimating\(\) - Stops any active animations on the Region and its children. - New in 3.1.0
-
-  
-
 
