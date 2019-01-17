@@ -112,55 +112,55 @@ Frame:Raise\(\) - 将此框架提升到其他框架上方。
 
 [Frame:RegisterForDrag](https://wow.gamepedia.com/API_Frame_RegisterForDrag)\("buttonType"\[,"buttonType"...\]\) - 指示应该通知此框架指定按钮的拖动事件。
 
-Frame:SetAttribute\("name", value\) - Sets an attribute on the frame.
+Frame:SetAttribute\("name", value\) - 在框架设置一个属性
 
-[Frame:SetBackdrop](https://wow.gamepedia.com/API_Frame_SetBackdrop)\(\[backdropTable\]\) - Set the backdrop of the frame according to the specification provided.
+[Frame:SetBackdrop](https://wow.gamepedia.com/API_Frame_SetBackdrop)\(\[backdropTable\]\) - 根据提供的规格设置框架的背景。
 
-[Frame:SetBackdropBorderColor](https://wow.gamepedia.com/API_Frame_SetBackdropBorderColor)\(r, g, b\[, a\]\) - Set the frame's backdrop's border's color.
+[Frame:SetBackdropBorderColor](https://wow.gamepedia.com/API_Frame_SetBackdropBorderColor)\(r, g, b\[, a\]\) - 设置框架背景边框颜色。
 
-[Frame:SetBackdropColor](https://wow.gamepedia.com/API_Frame_SetBackdropColor)\(r, g, b\[, a\]\) - Set the frame's backdrop color.
+[Frame:SetBackdropColor](https://wow.gamepedia.com/API_Frame_SetBackdropColor)\(r, g, b\[, a\]\) - 设置框架的背景颜色。
 
-[Frame:SetClampedToScreen](https://wow.gamepedia.com/API_Frame_SetClampedToScreen)\(clamped\) - Set whether the frame is prohibited from being dragged off screen.
+[Frame:SetClampedToScreen](https://wow.gamepedia.com/API_Frame_SetClampedToScreen)\(clamped\) - 设置是否禁止框架被拖出屏幕。
 
-[Frame:SetClampRectInsets](https://wow.gamepedia.com/API_Frame_SetClampRectInsets)\(left, right, top, bottom\) - Modify the frame's rectangle used to prevent dragging offscreen.
+[Frame:SetClampRectInsets](https://wow.gamepedia.com/API_Frame_SetClampRectInsets)\(left, right, top, bottom\) - 修改框架的矩形用于防止在屏幕外拖动。
 
-Frame:SetClipsChildren\(clipped\) - Set the frame clipping its children.
+Frame:SetClipsChildren\(clipped\) - 将框架剪裁为其子项。
 
-Frame:SetDepth\(depth\) - New in 3.0.8
+Frame:SetDepth\(depth\) - 3.0.8中的新功能
 
-[Frame:SetFrameLevel](https://wow.gamepedia.com/API_Frame_SetFrameLevel)\(level\) - Set the level of this frame \(determines which of overlapping frames shows on top\).
+[Frame:SetFrameLevel](https://wow.gamepedia.com/API_Frame_SetFrameLevel)\(level\) - 设置此帧的级别（确定哪个重叠帧显示在顶部）。
 
-[Frame:SetFrameStrata](https://wow.gamepedia.com/API_Frame_SetFrameStrata)\("strata"\) - Set the strata of this frame.
+[Frame:SetFrameStrata](https://wow.gamepedia.com/API_Frame_SetFrameStrata)\("strata"\) - 设置此框架的层次。
 
-[Frame:SetHitRectInsets](https://wow.gamepedia.com/API_Frame_SetHitRectInsets)\(left, right, top, bottom\) - Set the inset distances for the frame's hit rectangle.
+[Frame:SetHitRectInsets](https://wow.gamepedia.com/API_Frame_SetHitRectInsets)\(left, right, top, bottom\) - 设置框架命中矩形的插入距离。
 
-[Frame:SetID](https://wow.gamepedia.com/API_Frame_SetID)\(id\) - Set the ID of this frame.
+[Frame:SetID](https://wow.gamepedia.com/API_Frame_SetID)\(id\) - 设置此框架的ID。
 
-[Frame:SetMaxResize](https://wow.gamepedia.com/API_Frame_SetMaxResize)\(maxWidth, maxHeight\) - Set the maximum dimensions this frame can be resized to.
+[Frame:SetMaxResize](https://wow.gamepedia.com/API_Frame_SetMaxResize)\(maxWidth, maxHeight\) - 设置此框架可以调整大小的最大尺寸。
 
-[Frame:SetMinResize](https://wow.gamepedia.com/API_Frame_SetMinResize)\(minWidth, minHeight\) - Set the minimum dimensions this frame can be resized to.
+[Frame:SetMinResize](https://wow.gamepedia.com/API_Frame_SetMinResize)\(minWidth, minHeight\) - 设置此框架可以调整大小的最小尺寸。
 
-[Frame:SetMovable](https://wow.gamepedia.com/API_Frame_SetMovable)\(isMovable\) - Set whether the frame can be moved.
+[Frame:SetMovable](https://wow.gamepedia.com/API_Frame_SetMovable)\(isMovable\) - 设置是否可以移动框架。
 
-[Frame:SetPropagateKeyboardInput](https://wow.gamepedia.com/API_Frame_SetPropagateKeyboardInput)\(propagate\) - Sets whether to propagate keyboard input to other frames.Note: Only OnKeyDown will fire and only for non-modifier keys
+[Frame:SetPropagateKeyboardInput](https://wow.gamepedia.com/API_Frame_SetPropagateKeyboardInput)\(propagate\) - 设置是否将键盘输入传播到其他框架。注意：只有OnKeyDown才会触发，仅适用于非修饰键
 
-Frame:SetResizable\(isResizable\) - Set whether the frame can be resized.
+Frame:SetResizable\(isResizable\) - 设置是否可以调整框架的大小。
 
-[Frame:SetScale](https://wow.gamepedia.com/API_Frame_SetScale)\(scale\) - Set the scale factor of this frame relative to its parent.
+[Frame:SetScale](https://wow.gamepedia.com/API_Frame_SetScale)\(scale\) - 设置此框架相对于其父级的比例因子。
 
-[Frame:SetScript](https://wow.gamepedia.com/API_Frame_SetScript)\("handler", function\) - Set the function to use for a handler on this frame.
+[Frame:SetScript](https://wow.gamepedia.com/API_Frame_SetScript)\("handler", function\) - 设置用于此框架上的处理程序的函数。
 
-Frame:SetToplevel\(isTopLevel\) - Set whether the frame should raise itself when clicked - New in 1.10.2.
+Frame:SetToplevel\(isTopLevel\) - 设置单击时框架是否应该自动抬起 -  1.10.2中的新增内容。
 
-[Frame:SetUserPlaced](https://wow.gamepedia.com/API_Frame_SetUserPlaced)\(isUserPlaced\) - Set whether the frame has been relocated by the user \(and will thus be saved in the layout cache\).
+[Frame:SetUserPlaced](https://wow.gamepedia.com/API_Frame_SetUserPlaced)\(isUserPlaced\) - 设置框架是否已由用户重新定位（因此将保存在布局缓存中）。
 
-[Frame:StartMoving](https://wow.gamepedia.com/API_Frame_StartMoving)\(\) - Start moving this frame.
+[Frame:StartMoving](https://wow.gamepedia.com/API_Frame_StartMoving)\(\) - 开始移动此框架。
 
-Frame:StartSizing\("point"\) - Start sizing this frame using the specified anchor point.
+Frame:StartSizing\("point"\) - 使用指定的锚点开始调整此框架的大小。
 
-[Frame:StopMovingOrSizing](https://wow.gamepedia.com/API_Frame_StopMovingOrSizing)\(\) - Stop moving and/or sizing this frame.
+[Frame:StopMovingOrSizing](https://wow.gamepedia.com/API_Frame_StopMovingOrSizing)\(\) - 停止移动和/或调整此框架的大小。
 
-[Frame:UnregisterAllEvents](https://wow.gamepedia.com/API_Frame_UnregisterAllEvents)\(\) - Indicate that this frame should no longer be notified when any events occur.
+[Frame:UnregisterAllEvents](https://wow.gamepedia.com/API_Frame_UnregisterAllEvents)\(\) - 指示在发生任何事件时不再通知此框架。
 
-[Frame:UnregisterEvent](https://wow.gamepedia.com/API_Frame_UnregisterEvent)\("event"\) - Indicate that this frame should no longer be notified when event occurs.
+[Frame:UnregisterEvent](https://wow.gamepedia.com/API_Frame_UnregisterEvent)\("event"\) - 指示事件发生时不再通知此框架。
 
