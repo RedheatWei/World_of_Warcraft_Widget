@@ -10,11 +10,11 @@ Animation:Stop\(\) - 停止动画。
 
 Animation:IsDone\(\) - 如果动画播放完毕，则返回true。
 
-Animation:IsPlaying\(\) - Returns true if the animation is playing.
+Animation:IsPlaying\(\) - 如果正在播放动画，则返回true。
 
-Animation:IsPaused\(\) - Returns true if the animation is paused.
+Animation:IsPaused\(\) - 如果正在动画已经暂停，则返回true。
 
-Animation:IsStopped\(\) - Returns true if the animation is stopped.
+Animation:IsStopped\(\) - 如果正在动画已经停止，则返回true。
 
 Animation:IsDelaying\(\) - Returns true if the animation is in the middle of a start or end delay.
 
