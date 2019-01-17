@@ -14,11 +14,11 @@ Region:GetAnimationGroups\(\) - 返回作为此Region的子项的所有Animation
 
 [Region:GetBottom](https://wow.gamepedia.com/API_Region_GetBottom)\(\) - 获取此框架底边的y位置 - Moved in 1.10。
 
-Region:GetCenter\(\) - Get the coordinates of the center of this frame - Moved in 1.10.
+Region:GetCenter\(\) - 获取此框架中心的坐标 - Moved in 1.10.
 
-[Region:GetHeight](https://wow.gamepedia.com/API_Region_GetHeight)\(\) - Get the height of this object.
+[Region:GetHeight](https://wow.gamepedia.com/API_Region_GetHeight)\(\) - 获取此对象的高度。
 
-[Region:GetLeft](https://wow.gamepedia.com/API_Region_GetLeft)\(\) - Get the x location of the left edge of this frame - Moved in 1.10.
+[Region:GetLeft](https://wow.gamepedia.com/API_Region_GetLeft)\(\) - 获取此帧左边缘的x位置- Moved in 1.10.
 
 Region:GetNumPoints\(\) - Get the number of anchor points for this frame - New in 1.10.
 
