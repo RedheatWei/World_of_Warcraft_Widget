@@ -16,11 +16,11 @@ Animation:IsPaused\(\) - 如果正在动画已经暂停，则返回true。
 
 Animation:IsStopped\(\) - 如果正在动画已经停止，则返回true。
 
-Animation:IsDelaying\(\) - Returns true if the animation is in the middle of a start or end delay.
+Animation:IsDelaying\(\) - 如果动画处于开始或结束延迟的中间，则返回true。
 
-Animation:GetElapsed\(\) - Gets the amount of time in seconds that the animation has been playing for.
+Animation:GetElapsed\(\) - 获取动画播放的时间量（以秒为单位）。
 
-Animation:SetStartDelay\(delaySec\) - Set the number of seconds that the animation delays before it starts to progress.
+Animation:SetStartDelay\(delaySec\) - 设置动画在开始进度之前延迟的秒数。
 
 Animation:GetStartDelay\(\) - Get the number of seconds that the animation delays before it starts to progress.
 
