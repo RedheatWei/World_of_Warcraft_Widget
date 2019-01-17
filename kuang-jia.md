@@ -20,11 +20,11 @@ Frame:EnableDrawLayer\("[layer](https://wow.gamepedia.com/Layer)"\) - 在指定�
 
 [Frame:EnableKeyboard](https://wow.gamepedia.com/API_Frame_EnableKeyboard)\(enableFlag\) -设置此框架是否将获得键盘输入。
 
-[Frame:EnableMouse](https://wow.gamepedia.com/API_Frame_EnableMouse)\(enableFlag\) - Set whether this frame will get mouse input.
+[Frame:EnableMouse](https://wow.gamepedia.com/API_Frame_EnableMouse)\(enableFlag\) - 设置此框架是否将获得鼠标输入。
 
-Frame:EnableMouseWheel\(enableFlag\) - Set whether this frame will get mouse wheel notifications.
+Frame:EnableMouseWheel\(enableFlag\) - 设置此框架是否将获得鼠标滚轮通知。
 
-[Frame:GetAttribute](https://wow.gamepedia.com/API_Frame_GetAttribute)\(prefix, name, suffix\) - Returns the first existing attribute of \(prefix..name..suffix\), \("\*"..name..suffix\), \(prefix..name.."\*"\), \("\*"..name.."\*"\), \(name\).
+[Frame:GetAttribute](https://wow.gamepedia.com/API_Frame_GetAttribute)\(prefix, name, suffix\) -返回（prefix..name..suffix）的第一个现有属性，（“\*”.. name..suffix），（prefix..name ..“\*”），（“\*”.. name ..“\*“）， （name）。
 
 Frame:GetBackdrop\(\) - Creates and returns a backdrop table suitable for use in SetBackdrop - New in 1.11.
 
@@ -163,12 +163,4 @@ Frame:StartSizing\("point"\) - Start sizing this frame using the specified ancho
 [Frame:UnregisterAllEvents](https://wow.gamepedia.com/API_Frame_UnregisterAllEvents)\(\) - Indicate that this frame should no longer be notified when any events occur.
 
 [Frame:UnregisterEvent](https://wow.gamepedia.com/API_Frame_UnregisterEvent)\("event"\) - Indicate that this frame should no longer be notified when event occurs.
-
-
-
-  
-
-
-  
-
 
