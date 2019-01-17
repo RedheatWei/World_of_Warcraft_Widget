@@ -46,17 +46,17 @@ Region:IsDragging\(\) - 如果正在拖动此Region或其Parent，则为True。-
 
 [Region:SetHeight](https://wow.gamepedia.com/API_Region_SetHeight)\(height\) - 设置对象的高度。
 
-Region:SetParent\(parent or "parentName"\) - Set the parent for this frame - Moved in 1.10.
+Region:SetParent\(parent or "parentName"\) - 设置此框架的父级 - Moved in 1.10.
 
-[Region:SetPoint](https://wow.gamepedia.com/API_Region_SetPoint)\("point"\[,"relativeFrame" or relativeObject\[,"relativePoint"\[, xOfs\[, yOfs\]\]\]\]\) - Set an attachment point of this object - Updated in 1.10. Since 2.2 cooordinates are now relative to the closest anchor point
+[Region:SetPoint](https://wow.gamepedia.com/API_Region_SetPoint)\("point"\[,"relativeFrame" or relativeObject\[,"relativePoint"\[, xOfs\[, yOfs\]\]\]\]\) - 设置此对象的连接点 - 在1.10中更新。2.2坐标现在相对于最接近的锚点
 
-Region:SetSize\(width,height\) - Sets the width and the height of the object as SetHeight and SetWidth do, but in one function.
+Region:SetSize\(width,height\) - 将对象的宽度和高度设置为SetHeight和SetWidth，但是在一个函数中。
 
-[Region:SetShown](https://wow.gamepedia.com/API_Region_SetShown)\(shownFlag\) - Shows or hides the region.
+[Region:SetShown](https://wow.gamepedia.com/API_Region_SetShown)\(shownFlag\) - 显示或隐藏该区域。
 
-[Region:SetWidth](https://wow.gamepedia.com/API_Region_SetWidth)\(width\) - Set the width of the object.
+[Region:SetWidth](https://wow.gamepedia.com/API_Region_SetWidth)\(width\) - 设置对象的宽度。
 
-[Region:Show](https://wow.gamepedia.com/API_Region_Show)\(\) - Set this object to shown \(it will appear if its parent is visible\).
+[Region:Show](https://wow.gamepedia.com/API_Region_Show)\(\) - 将此对象设置为显示（如果其父对象可见，则会显示该对象）。
 
-Region:StopAnimating\(\) - Stops any active animations on the Region and its children. - New in 3.1.
+Region:StopAnimating\(\) - 停止Region及其子节点上的所有活动动画。-  3.1.0中的新功能
 
