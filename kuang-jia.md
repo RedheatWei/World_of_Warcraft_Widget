@@ -24,7 +24,7 @@ Frame:EnableDrawLayer\("[layer](https://wow.gamepedia.com/Layer)"\) - 在指定�
 
 Frame:EnableMouseWheel\(enableFlag\) - 设置此框架是否将获得鼠标滚轮通知。
 
-[Frame:GetAttribute](https://wow.gamepedia.com/API_Frame_GetAttribute)\(prefix, name, suffix\) -返回（prefix..name..suffix）的第一个现有属性，（“\*”.. name..suffix），（prefix..name ..“\*”），（“\*”.. name ..“\*“）， （name）。
+[Frame:GetAttribute](https://wow.gamepedia.com/API_Frame_GetAttribute)\(prefix, name, suffix\) - 返回\(prefix..name..suffix\)的第一个现有属性，\(“\*”.. name..suffix\)，\(prefix..name ..“\*”\)，\(“\*”.. name ..“\*“\)， \(name\)。
 
 Frame:GetBackdrop\(\) - Creates and returns a backdrop table suitable for use in SetBackdrop - New in 1.11.
 
