@@ -4,7 +4,7 @@
 
 [FontInstance:GetFont](https://wow.gamepedia.com/API_FontInstance_GetFont)\(\) - 返回字体文件，高度和标志。
 
-[FontInstance:GetFontObject](https://wow.gamepedia.com/API_FontInstance_GetFontObject)\(\) - 返回'parent'Font对象，如果没有，则返回nil。
+[FontInstance:GetFontObject](https://wow.gamepedia.com/API_FontInstance_GetFontObject)\(\) - 返回'父'Font对象，如果没有，则返回nil。
 
 FontInstance:GetJustifyH\(\) - 返回水平文本对齐。
 
@@ -20,16 +20,16 @@ FontInstance:GetSpacing\(\) - 返回文本间距。
 
 [FontInstance:SetFont](https://wow.gamepedia.com/API_FontInstance_SetFont)\("path", height\[,"flags"\]\) - 设置用于文本的字体，如果路径有效则返回1，否则返回nil（不发生更改）。
 
-[FontInstance:SetFontObject](https://wow.gamepedia.com/API_FontInstance_SetFontObject)\(fontObject\) - Sets the 'parent' Font object from which this object inherits properties.  
-FontInstance:SetJustifyH\("justifyH"\) - Sets horizontal text justification \("LEFT","RIGHT", or "CENTER"\)
+[FontInstance:SetFontObject](https://wow.gamepedia.com/API_FontInstance_SetFontObject)\(fontObject\) - 设置此对象从其继承属性的“父”Font对象。  
+FontInstance:SetJustifyH\("justifyH"\) - 设置水平文本对齐（“​​LEFT”，“RIGHT”或“CENTER”）
 
-FontInstance:SetJustifyV\("justifyV"\) - Sets vertical text justification \("TOP","BOTTOM", or "MIDDLE"\)
+FontInstance:SetJustifyV\("justifyV"\) - 设置垂直文本对齐（“​​TOP”，“BOTTOM”或“MIDDLE”）
 
-FontInstance:SetShadowColor\(r, g, b\[, a\]\) - Sets the text shadow color.
+FontInstance:SetShadowColor\(r, g, b\[, a\]\) - 设置文本阴影颜色。
 
-FontInstance:SetShadowOffset\(x, y\) - Sets the text shadow offset.
+FontInstance:SetShadowOffset\(x, y\) - 设置文本阴影偏移量。
 
-FontInstance:SetSpacing\(spacing\) - Sets the spacing between lines of text in the object.
+FontInstance:SetSpacing\(spacing\) - 设置对象中文本行之间的间距。
 
-[FontInstance:SetTextColor](https://wow.gamepedia.com/API_FontInstance_SetTextColor)\(r, g, b\[, a\]\) - Sets the default text color.
+[FontInstance:SetTextColor](https://wow.gamepedia.com/API_FontInstance_SetTextColor)\(r, g, b\[, a\]\) - 设置默认文本颜色。
 
