@@ -12,13 +12,13 @@ Region:CreateAnimationGroup\(\["name"\[,"inheritsFrom"\]\]\) - 创建一个新�
 
 Region:GetAnimationGroups\(\) - 返回作为此Region的子项的所有AnimationGroup。-  3.1.0中的新功能
 
-[Region:GetBottom](https://wow.gamepedia.com/API_Region_GetBottom)\(\) - 获取此框架底边的y位置 - Moved in 1.10。
+[Region:GetBottom](https://wow.gamepedia.com/API_Region_GetBottom)\(\) - 获取此框架底边的y位置 - 于1.10移除。
 
-Region:GetCenter\(\) - 获取此框架中心的坐标 - Moved in 1.10.
+Region:GetCenter\(\) - 获取此框架中心的坐标 - 于1.10移除。
 
 [Region:GetHeight](https://wow.gamepedia.com/API_Region_GetHeight)\(\) - 获取此对象的高度。
 
-[Region:GetLeft](https://wow.gamepedia.com/API_Region_GetLeft)\(\) - 获取此框架左边缘的x位置- Moved in 1.10.
+[Region:GetLeft](https://wow.gamepedia.com/API_Region_GetLeft)\(\) - 获取此框架左边缘的x位置- 于1.10移除。
 
 Region:GetNumPoints\(\) - 获取此框架的锚点数 - 1.10的新功能.
 
@@ -26,9 +26,9 @@ Region:GetNumPoints\(\) - 获取此框架的锚点数 - 1.10的新功能.
 
 Region:GetRect\(\) - 获取框架的左，底部，宽度，高度。
 
-[Region:GetRight](https://wow.gamepedia.com/API_Region_GetRight)\(\) - 获取此框架右边缘的x位置 - Moved in 1.10.
+[Region:GetRight](https://wow.gamepedia.com/API_Region_GetRight)\(\) - 获取此框架右边缘的x位置 - 于1.10移除。
 
-[Region:GetTop](https://wow.gamepedia.com/API_Region_GetTop)\(\) - 获取此框架上边缘的y位置 - Moved in 1.10.
+[Region:GetTop](https://wow.gamepedia.com/API_Region_GetTop)\(\) - 获取此框架上边缘的y位置 - 于1.10移除。
 
 [Region:GetWidth](https://wow.gamepedia.com/API_Region_GetWidth)\(\) - 获取此对象的宽度。
 
@@ -46,7 +46,7 @@ Region:IsDragging\(\) - 如果正在拖动此Region或其Parent，则为True。-
 
 [Region:SetHeight](https://wow.gamepedia.com/API_Region_SetHeight)\(height\) - 设置对象的高度。
 
-Region:SetParent\(parent or "parentName"\) - 设置此框架的父级 - Moved in 1.10.
+Region:SetParent\(parent or "parentName"\) - 设置此框架的父级 - 于1.10移除。
 
 [Region:SetPoint](https://wow.gamepedia.com/API_Region_SetPoint)\("point"\[,"relativeFrame" or relativeObject\[,"relativePoint"\[, xOfs\[, yOfs\]\]\]\]\) - 设置此对象的连接点 - 在1.10中更新。2.2坐标现在相对于最接近的锚点
 
