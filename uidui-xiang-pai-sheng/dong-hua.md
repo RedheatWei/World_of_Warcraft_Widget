@@ -28,31 +28,31 @@ Animation:SetEndDelay\(delaySec\) - 设置完成后动画延迟的秒数。
 
 Animation:GetEndDelay\(\) - 获取完成后动画延迟的秒数。
 
-Animation:SetDuration\(durationSec\) - Set the number of seconds it takes for the animation to progress from start to finish.
+Animation:SetDuration\(durationSec\) -设置动画从开始到结束所需的秒数。
 
-Animation:GetDuration\(\) - Get the number of seconds it takes for the animation to progress from start to finish.
+Animation:GetDuration\(\) - 获取动画从开始到结束所需的秒数。
 
-Animation:GetProgress\(\) - Returns the progress of the animation as a unit value \[0,1\]. Ignores start and end delay.
+Animation:GetProgress\(\) - 以单位值\[0,1\]的形式返回动画的进度。忽略开始和结束延迟。
 
-Animation:GetSmoothProgress\(\) - Returns a smoothed, \[0,1\] progress value for the animation.
+Animation:GetSmoothProgress\(\) - 返回动画的平滑的\[0,1\]进度值。
 
-Animation:GetProgressWithDelay\(\) - Returns the progress of the animation combined with its start and end delay.
+Animation:GetProgressWithDelay\(\) - 返回动画的进度及其开始和结束延迟。
 
-Animation:SetOrder\(order\) - Sets the order that the animation plays within its parent group. Range is \[1,100\].
+Animation:SetOrder\(order\) - 设置动画在其父组中播放的顺序。范围是\[1,100\]。
 
-Animation:GetOrder\(\) - Gets the order of the animation within its parent group.
+Animation:GetOrder\(\) - 获取其父组中动画的顺序。
 
-Animation:SetSmoothing\(smoothType\) - Sets the smoothing type for the animation. Input is \[IN,OUT, or IN\_OUT\].
+Animation:SetSmoothing\(smoothType\) - 设置动画的平滑类型。输入为\[IN，OUT或IN\_OUT\]。
 
-Animation:GetSmoothing\(\) - Gets the smoothing type for the animation.
+Animation:GetSmoothing\(\) - 获取动画的平滑类型。
 
-Animation:SetParent\(animGroup or "animGroupName"\) - Sets the parent for the animation. If the animation was not already a child of the parent, the parent will insert the animation into the proper order amongst its children.
+Animation:SetParent\(animGroup or "animGroupName"\) -设置动画的父级。如果动画还不是父动画的子动画，则父动画将在其子动画中按顺序插入动画。
 
-Animation:GetRegionParent\(\) - Gets the Region object that the animation operates on. The region object is this Animation's parent's parent \(the AnimationGroup's parent\).
+Animation:GetRegionParent\(\) - 获取动画操作的Region对象。region对象是此Animation的父级父级（AnimationGroup的父级）。
 
-Animation:HasScript\("handler"\) - Same as Frame:HasScript, Input is \[OnLoad, OnPlay, OnPaused, OnStop, OnFinished, OnUpdate\].
+Animation:HasScript\("handler"\) - 与Frame:HasScript相同, 输入为\[OnLoad, OnPlay, OnPaused, OnStop, OnFinished, OnUpdate\].
 
-Animation:GetScript\("handler"\) - Same as Frame:GetScript, Input is \[OnLoad, OnPlay, OnPaused, OnStop, OnFinished, OnUpdate\].
+Animation:GetScript\("handler"\) - 与Frame:GetScript相同, 输入为\[OnLoad, OnPlay, OnPaused, OnStop, OnFinished, OnUpdate\].
 
-Animation:SetScript\("handler"\) - Same as Frame:SetScript, Input is \[OnLoad, OnPlay, OnPaused, OnStop, OnFinished, OnUpdate\].
+Animation:SetScript\("handler"\) - 与Frame:SetScript相同, 输入为\[OnLoad, OnPlay, OnPaused, OnStop, OnFinished, OnUpdate\].
 
