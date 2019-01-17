@@ -26,11 +26,11 @@ Region:GetNumPoints\(\) - 获取此框架的锚点数 - 1.10的新功能.
 
 Region:GetRect\(\) - 获取框架的左，底部，宽度，高度。
 
-[Region:GetRight](https://wow.gamepedia.com/API_Region_GetRight)\(\) - 获取此帧右边缘的x位置 - Moved in 1.10.
+[Region:GetRight](https://wow.gamepedia.com/API_Region_GetRight)\(\) - 获取此框架右边缘的x位置 - Moved in 1.10.
 
-[Region:GetTop](https://wow.gamepedia.com/API_Region_GetTop)\(\) - Get the y location of the top edge of this frame - Moved in 1.10.
+[Region:GetTop](https://wow.gamepedia.com/API_Region_GetTop)\(\) - 获取此框架上边缘的y位置 - Moved in 1.10.
 
-[Region:GetWidth](https://wow.gamepedia.com/API_Region_GetWidth)\(\) - Get the width of this object.
+[Region:GetWidth](https://wow.gamepedia.com/API_Region_GetWidth)\(\) - 获取此对象的宽度。
 
 [Region:Hide](https://wow.gamepedia.com/API_Region_Hide)\(\) - Set this object to hidden \(it and all of its children will disappear\).
 
