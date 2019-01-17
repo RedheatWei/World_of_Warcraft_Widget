@@ -10,4 +10,5 @@
   * [区域](uidui-xiang-pai-sheng/qu-yu.md)
 * [动画派生](dong-hua-pai-sheng.md)
   * [Translation](dong-hua-pai-sheng/translation.md)
+  * [路径](dong-hua-pai-sheng/lu-jing.md)
 
