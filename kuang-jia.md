@@ -42,75 +42,75 @@ Frame:GetEffectiveAlpha\(\) - 返回框架的有效alpha。- 自2.1。
 
 Frame:GetEffectiveDepth\(\) - 3.0.8中的新功能
 
-[Frame:GetEffectiveScale](https://wow.gamepedia.com/API_Frame_GetEffectiveScale)\(\) - Get the scale factor of this object relative to the root window.
+[Frame:GetEffectiveScale](https://wow.gamepedia.com/API_Frame_GetEffectiveScale)\(\) - 获取此对象相对于根窗口的比例因子。
 
-[Frame:GetFrameLevel](https://wow.gamepedia.com/API_Frame_GetFrameLevel)\(\) - Get the level of this frame.
+[Frame:GetFrameLevel](https://wow.gamepedia.com/API_Frame_GetFrameLevel)\(\) - 获得此框架的级别。
 
-[Frame:GetFrameStrata](https://wow.gamepedia.com/API_Frame_GetFrameStrata)\(\) - Get the strata of this frame.
+[Frame:GetFrameStrata](https://wow.gamepedia.com/API_Frame_GetFrameStrata)\(\) - 得到这个框架的层次。
 
-[Frame:GetFrameType](https://wow.gamepedia.com/API_Frame_GetFrameType)\(\) - Get the type of this frame.
+[Frame:GetFrameType](https://wow.gamepedia.com/API_Frame_GetFrameType)\(\) - 获取此框架的类型。
 
-Frame:GetHitRectInsets\(\) - Gets the frame's hit rectangle inset distances \(l, r, t, b\) - new in 1.11.
+Frame:GetHitRectInsets\(\) - 获取框架的命中矩形插入距离（l，r，t，b） -  1.11中的新值。
 
-[Frame:GetID](https://wow.gamepedia.com/API_Frame_GetID)\(\) - Get the ID of this frame.
+[Frame:GetID](https://wow.gamepedia.com/API_Frame_GetID)\(\) - 获取此框架的ID。
 
-Frame:GetMaxResize\(\) - Gets the frame's maximum allowed resize bounds \(w, h\) - new in 1.11.
+Frame:GetMaxResize\(\) - 获取框架的最大允许调整大小边界（w，h） -  1.11中的新值。
 
-Frame:GetMinResize\(\) - Gets the frame's minimum allowed resize bounds \(w, h\) - new in 1.11.
+Frame:GetMinResize\(\) - 获取框架的最小允许调整大小边界（w，h） -  1.11中的新值。
 
-Frame:GetNumChildren\(\) - Get the number of "children" \(frames and things derived from frames\) this frame has.
+Frame:GetNumChildren\(\) - 获取此框架具有的“children”（框架和从框架派生的东西）的数量。
 
-Frame:GetNumRegions\(\) - Return the number of "regions" \(fontstrings, textures\) belonging to this frame.
+Frame:GetNumRegions\(\) - 返回属于此框架的“区域”（fontstrings，textures）的数量。
 
-[Frame:GetPropagateKeyboardInput](https://wow.gamepedia.com/API_Frame_GetPropagateKeyboardInput)\(\) - Returns if keyboard inputs are being propagated.
+[Frame:GetPropagateKeyboardInput](https://wow.gamepedia.com/API_Frame_GetPropagateKeyboardInput)\(\) - 返回键盘输入是否正在传播。
 
-Frame:GetRegions\(\) - Return the "regions" \(fontstrings, textures\) of the frame \(multiple return values\) belonging to this frame.
+Frame:GetRegions\(\) - 返回属于此框架的框架的“区域”（fontstrings，textures）（多个返回值）。
 
-Frame:GetScale\(\) - Get the scale factor of this object relative to its parent.
+Frame:GetScale\(\) - 获取此对象相对于其父对象的比例因子。
 
-Frame:GetScript\("handler"\) - Get the function for one of this frame's handlers.
+Frame:GetScript\("handler"\) - 获取此框架处理程序之一的功能。
 
-Frame:GetTitleRegion\(\) - Return the frame's title region - New in 1.11.
+Frame:GetTitleRegion\(\) - 返回框架的标题区域 -  1.11中的新增内容。
 
-Frame:HasScript\("handler"\) - Return true if the frame can be given a handler of the specified type \(NOT whether it actually HAS one, use GetScript for that\) - Since 1.8.
+Frame:HasScript\("handler"\) - 如果框架可以被赋予指定类型的处理程序，则返回true（不管它是否真的是一个，使用GetScript） - 从1.8开始。
 
-[Frame:HookScript](https://wow.gamepedia.com/API_Frame_HookScript)\("handler", function\) - Hook a secure frame script.
+[Frame:HookScript](https://wow.gamepedia.com/API_Frame_HookScript)\("handler", function\) - 挂钩安全框架脚本。
 
-Frame:IgnoreDepth\(ignoreFlag\) - New in 3.0.8
+Frame:IgnoreDepth\(ignoreFlag\) - 3.0.8中的新功能
 
-[Frame:IsClampedToScreen](https://wow.gamepedia.com/API_Frame_IsClampedToScreen)\(\) - Gets whether the frame is prohibited from being dragged off screen.
+[Frame:IsClampedToScreen](https://wow.gamepedia.com/API_Frame_IsClampedToScreen)\(\) - 获取是否禁止将框架拖出屏幕。
 
-[Frame:IsEventRegistered](https://wow.gamepedia.com/API_Frame_IsEventRegistered)\("event"\) - Returns true if the given event is registered to the frame.
+[Frame:IsEventRegistered](https://wow.gamepedia.com/API_Frame_IsEventRegistered)\("event"\) - 如果给定事件已注册到框架，则返回true。
 
-[Frame:IsFrameType](https://wow.gamepedia.com/API_Frame_IsFrameType)\("type"\) - Determine if this frame is of the specified type, or a subclass of that type.
+[Frame:IsFrameType](https://wow.gamepedia.com/API_Frame_IsFrameType)\("type"\) - 确定此框架是否为指定类型或该类型的子类。
 
-Frame:IsIgnoringDepth\(\) - New in 3.0.8
+Frame:IsIgnoringDepth\(\) - 3.0.8中的新功能
 
-Frame:IsKeyboardEnabled\(\) - Get whether this frame will get keyboard input. - New in 1.11.
+Frame:IsKeyboardEnabled\(\) - 获取此框架是否将获得键盘输入。-  1.11中的新功能。
 
-Frame:IsMouseEnabled\(\) - Get whether this frame will get mouse input. - New in 1.11.
+Frame:IsMouseEnabled\(\) - 获取此框架是否将获得鼠标输入。-  1.11中的新功能。
 
-Frame:IsMouseWheelEnabled\(\) - Get whether this frame will get mouse wheel notifications. New in 1.11.
+Frame:IsMouseWheelEnabled\(\) - 获取此框架是否将获得鼠标滚轮通知。1.11中的新功能。
 
-[Frame:IsMovable](https://wow.gamepedia.com/API_Frame_IsMovable)\(\) - Determine if the frame can be moved.
+[Frame:IsMovable](https://wow.gamepedia.com/API_Frame_IsMovable)\(\) - 确定框架是否可以移动。
 
-Frame:IsResizable\(\) - Determine if the frame can be resized.
+Frame:IsResizable\(\) - 确定是否可以调整框架的大小。
 
-Frame:IsToplevel\(\) - Get whether the frame is set as toplevel - New in 1.10.2.
+Frame:IsToplevel\(\) - 获取帧是否设置为toplevel  -  1.10.2中的新增内容。
 
-[Frame:IsUserPlaced](https://wow.gamepedia.com/API_Frame_IsUserPlaced)\(\) - Determine if this frame has been relocated by the user.
+[Frame:IsUserPlaced](https://wow.gamepedia.com/API_Frame_IsUserPlaced)\(\) - 确定用户是否已重新定位此框架。
 
-Frame:Lower\(\) - Lower this frame behind other frames.
+Frame:Lower\(\) - 将此框架放在其他框架后面。
 
-Frame:Raise\(\) - Raise this frame above other frames.
+Frame:Raise\(\) - 将此框架提升到其他框架上方。
 
-[Frame:RegisterAllEvents](https://wow.gamepedia.com/API_Frame_RegisterAllEvents)\(\) - Register this frame to receive all events \(For debugging purposes only!\)
+[Frame:RegisterAllEvents](https://wow.gamepedia.com/API_Frame_RegisterAllEvents)\(\) - 注册此框架以接收所有事件（仅用于调试目的！）
 
-[Frame:RegisterEvent](https://wow.gamepedia.com/API_Frame_RegisterEvent)\("event"\) - Indicate that this frame should be notified when event occurs.
+[Frame:RegisterEvent](https://wow.gamepedia.com/API_Frame_RegisterEvent)\("event"\) - 指示事件发生时应通知此框架。
 
-[Frame:RegisterUnitEvent](https://wow.gamepedia.com/API_Frame_RegisterUnitEvent)\("event", "unit1"\[, "unit2"\]\) - Indicate that this frame should be notified when event occur for specified units only. \(New in 5.0.4\)
+[Frame:RegisterUnitEvent](https://wow.gamepedia.com/API_Frame_RegisterUnitEvent)\("event", "unit1"\[, "unit2"\]\) - 指示仅在指定单元发生事件时应通知此框架。（5.0.4中的新功能）
 
-[Frame:RegisterForDrag](https://wow.gamepedia.com/API_Frame_RegisterForDrag)\("buttonType"\[,"buttonType"...\]\) - Inidicate that this frame should be notified of drag events for the specified buttons.
+[Frame:RegisterForDrag](https://wow.gamepedia.com/API_Frame_RegisterForDrag)\("buttonType"\[,"buttonType"...\]\) - 指示应该通知此框架指定按钮的拖动事件。
 
 Frame:SetAttribute\("name", value\) - Sets an attribute on the frame.
 
