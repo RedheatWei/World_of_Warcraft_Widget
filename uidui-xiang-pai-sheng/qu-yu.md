@@ -20,9 +20,9 @@ Region:GetCenter\(\) - 获取此框架中心的坐标 - Moved in 1.10.
 
 [Region:GetLeft](https://wow.gamepedia.com/API_Region_GetLeft)\(\) - 获取此框架左边缘的x位置- Moved in 1.10.
 
-Region:GetNumPoints\(\) - 获取此框架的锚点数 - New in 1.10.
+Region:GetNumPoints\(\) - 获取此框架的锚点数 - 1.10的新功能.
 
-[Region:GetPoint](https://wow.gamepedia.com/API_Region_GetPoint)\(pointNum\) - Get details for an anchor point for this frame \(point, relativeTo, relativePoint, xofs, yofs\) - New in 1.10.
+[Region:GetPoint](https://wow.gamepedia.com/API_Region_GetPoint)\(pointNum\) - 获取此框架的锚点的详细信息（point，relativeTo，relativePoint，xofs，yofs） - 1.10的新功能.
 
 Region:GetRect\(\) - Get frame's left, bottom, width, height.
 
