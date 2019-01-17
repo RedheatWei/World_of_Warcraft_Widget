@@ -16,6 +16,9 @@
   * [Alpha](dong-hua-pai-sheng/alpha.md)
 * 字体实例派生
   * [字体](zi-ti.md)
-* 区域派生
+* [区域派生](qu-yu-pai-sheng.md)
   * [框架](kuang-jia.md)
+  * [分层区域](fen-ceng-qu-yu.md)
+* [框架派生](kuang-jia-pai-sheng.md)
+  * [按钮](kuang-jia-pai-sheng/an-niu.md)
 
