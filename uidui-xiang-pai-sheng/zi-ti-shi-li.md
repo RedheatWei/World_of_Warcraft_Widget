@@ -18,7 +18,7 @@ FontInstance:GetSpacing\(\) - 返回文本间距。
 
 [FontInstance:GetTextColor](https://wow.gamepedia.com/API_FontInstance_GetTextColor)\(\) - 返回默认文本颜色。
 
-[FontInstance:SetFont](https://wow.gamepedia.com/API_FontInstance_SetFont)\("path", height\[,"flags"\]\) - Sets the font to use for text, returns 1 if the path was valid, nil otherwise \(no change occurs\).
+[FontInstance:SetFont](https://wow.gamepedia.com/API_FontInstance_SetFont)\("path", height\[,"flags"\]\) - 设置用于文本的字体，如果路径有效则返回1，否则返回nil（不发生更改）。
 
 [FontInstance:SetFontObject](https://wow.gamepedia.com/API_FontInstance_SetFontObject)\(fontObject\) - Sets the 'parent' Font object from which this object inherits properties.  
 FontInstance:SetJustifyH\("justifyH"\) - Sets horizontal text justification \("LEFT","RIGHT", or "CENTER"\)
