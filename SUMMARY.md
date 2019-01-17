@@ -14,4 +14,6 @@
   * [旋转](dong-hua-pai-sheng/zi-zhuan.md)
   * [比例](dong-hua-pai-sheng/bi-li.md)
   * [Alpha](dong-hua-pai-sheng/alpha.md)
+* 字体实例派生
+  * [字体](zi-ti.md)
 
