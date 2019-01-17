@@ -13,4 +13,5 @@
   * [路径](dong-hua-pai-sheng/lu-jing.md)
   * [旋转](dong-hua-pai-sheng/zi-zhuan.md)
   * [比例](dong-hua-pai-sheng/bi-li.md)
+  * [Alpha](dong-hua-pai-sheng/alpha.md)
 
