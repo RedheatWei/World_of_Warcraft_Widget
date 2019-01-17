@@ -1,18 +1,40 @@
-### UI对象
+### 动画组
 
-###### 这是一个无法实际创建的抽象UI对象类型。它是所有UI对象的基础，并汇集了一些常用方法，这些方法在所有窗口小部件类型中具有相同的行为。
+###### 这管理其子动画的回放，顺序和循环。组中的动画将根据其顺序字段按升序播放（可通过SetOrder和GetOrder访问）。如果两个或多个动画具有相同的顺序值，则它们将同时播放。在完成具有该订单值的所有动画之前，下一个动画将不会播放。3.1.0中的新功能
 
-Object:GetParent\(\) - 移自Region:GetParent\(\). 这与旧版本基本相同，只是您不能再假设您的对象在其某个层次结构中具有Frame类型。
+AnimationGroup:Play\(\) - 开始播放此组中的动画。
 
-UIObject:GetAlpha\(\) - 返回此对象的alpha（不透明度）值。
+AnimationGroup:Pause\(\) - 暂停此组中的动画。
 
-UIObject:GetName\(\) - 返回对象名称。
+AnimationGroup:Stop\(\) - 停止此组中的所有动画。
 
-UIObject:GetObjectType\(\) - 返回对象类型。
+AnimationGroup:Finish\(\) - 当前循环周期完成后，通知该组停止播放。如果这个组没有播放，什么都不做。
 
-[UIObject:IsForbidden](https://wow.gamepedia.com/API_UIObject_IsForbidden)\(\) - 返回是否禁止与窗口小部件的不安全交互。
+AnimationGroup:GetProgress\(\) - 以单位值\[0,1\]的形式返回此动画的进度。
 
-UIObject:IsObjectType\("type"\) - 确定此对象是指定类型还是该类型的子类。
+AnimationGroup:IsDone\(\) - 如果组已完成播放，则返回true。.
 
-[UIObject:SetAlpha](https://wow.gamepedia.com/API_UIObject_SetAlpha)\(alpha\) - 设置对象的alpha（不透明度）值。
+AnimationGroup:IsPlaying\(\) - Returns true if the group is playing.
+
+AnimationGroup:IsPaused\(\) - Returns true if the group is paused.
+
+AnimationGroup:GetDuration\(\) - Gets the total duration across all child Animations that the group will take to complete one loop cycle.
+
+[AnimationGroup:GetIgnoreFramerateThrottle](https://wow.gamepedia.com/API_AnimationGroup_GetIgnoreFramerateThrottle)\(\) - Returns true if the global animation framerate throttle is ignored by this animation group.
+
+[AnimationGroup:SetIgnoreFramerateThrottle](https://wow.gamepedia.com/API_AnimationGroup_SetIgnoreFramerateThrottle)\(ignore\) - Sets whether the global animation framerate throttle is ignored by this animation group.
+
+AnimationGroup:SetLooping\(loopType\) - Sets the type of looping for the group. Input is \[NONE, REPEAT, or BOUNCE\].
+
+AnimationGroup:GetLooping\(\) - Gets the type of looping for the group.
+
+AnimationGroup:GetLoopState\(\) - Gets the current loop state of the group. Output is \[NONE, FORWARD, or REVERSE\].
+
+[AnimationGroup:CreateAnimation](https://wow.gamepedia.com/API_AnimationGroup_CreateAnimation)\("animationType", \["name"\[,"inheritsFrom"\]\]\) - Create and return an Animation as a child of this group.
+
+AnimationGroup:HasScript\("handler"\) - Same as Frame:HasScript. Input is \[OnLoad, OnPlay, OnPaused, OnStop, OnFinished, OnUpdate\].
+
+AnimationGroup:GetScript\("handler"\) - Same as Frame:GetScript. Input is \[OnLoad, OnPlay, OnPaused, OnStop, OnFinished, OnUpdate\].
+
+AnimationGroup:SetScript\("handler", function\) - Same as Frame:SetScript. Input is \[OnLoad, OnPlay, OnPaused, OnStop, OnFinished, OnUpdate\].
 
