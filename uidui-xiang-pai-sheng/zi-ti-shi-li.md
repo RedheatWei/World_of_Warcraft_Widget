@@ -10,13 +10,13 @@ FontInstance:GetJustifyH\(\) - 返回水平文本对齐。
 
 FontInstance:GetJustifyV\(\) - 返回垂直文本对齐。
 
-FontInstance:GetShadowColor\(\) - Returns the color of text shadow \(r, g, b, a\).
+FontInstance:GetShadowColor\(\) - 返回文本阴影的颜色（r，g，b，a）。
 
-FontInstance:GetShadowOffset\(\) - Returns the text shadow offset \(x, y\).
+FontInstance:GetShadowOffset\(\) - 返回文本阴影偏移量（x，y）。
 
-FontInstance:GetSpacing\(\) - Returns the text spacing.
+FontInstance:GetSpacing\(\) - 返回文本间距。
 
-[FontInstance:GetTextColor](https://wow.gamepedia.com/API_FontInstance_GetTextColor)\(\) - Returns the default text color.
+[FontInstance:GetTextColor](https://wow.gamepedia.com/API_FontInstance_GetTextColor)\(\) - 返回默认文本颜色。
 
 [FontInstance:SetFont](https://wow.gamepedia.com/API_FontInstance_SetFont)\("path", height\[,"flags"\]\) - Sets the font to use for text, returns 1 if the path was valid, nil otherwise \(no change occurs\).
 
@@ -32,7 +32,4 @@ FontInstance:SetShadowOffset\(x, y\) - Sets the text shadow offset.
 FontInstance:SetSpacing\(spacing\) - Sets the spacing between lines of text in the object.
 
 [FontInstance:SetTextColor](https://wow.gamepedia.com/API_FontInstance_SetTextColor)\(r, g, b\[, a\]\) - Sets the default text color.
-
-  
-
 
