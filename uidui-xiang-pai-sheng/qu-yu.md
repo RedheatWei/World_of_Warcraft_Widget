@@ -42,9 +42,9 @@ Region:IsDragging\(\) - 如果正在拖动此Region或其Parent，则为True。-
 
 [Region:IsVisible](https://wow.gamepedia.com/API_Region_IsVisible)\(\) - 获取对象是否在屏幕上可见（逻辑上（IsShown\(\) and GetParent\(\):sVisible\(\)））;
 
-[Region:SetAllPoints](https://wow.gamepedia.com/API_Region_SetAllPoints)\(frame or "frameName"\) - 设置所有锚点以匹配指定框架的边缘 - 在1.10中移动。
+[Region:SetAllPoints](https://wow.gamepedia.com/API_Region_SetAllPoints)\(frame or "frameName"\) - 设置所有锚点以匹配指定框架的边缘 - Moved in 1.10.
 
-[Region:SetHeight](https://wow.gamepedia.com/API_Region_SetHeight)\(height\) - Set the height of the object.
+[Region:SetHeight](https://wow.gamepedia.com/API_Region_SetHeight)\(height\) - 设置对象的高度。
 
 Region:SetParent\(parent or "parentName"\) - Set the parent for this frame - Moved in 1.10.
 
