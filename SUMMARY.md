@@ -11,4 +11,6 @@
 * [动画派生](dong-hua-pai-sheng.md)
   * [Translation](dong-hua-pai-sheng/translation.md)
   * [路径](dong-hua-pai-sheng/lu-jing.md)
+  * [旋转](dong-hua-pai-sheng/zi-zhuan.md)
+  * [比例](dong-hua-pai-sheng/bi-li.md)
 
