@@ -6,5 +6,15 @@
 
 Font:CopyFontObject\(otherFont\) - 将此字体的属性设置为其他字体对象的副本。
 
+###### 以下[Frame Derivatives](https://wow.gamepedia.com/Widget_API#Frame_Derivatives)还继承[FontInstance](https://wow.gamepedia.com/Widget_API#FontInstance)类型的所有函数：
+
+* [EditBox](https://wow.gamepedia.com/Widget_API#EditBox)
+* [MessageFrame](https://wow.gamepedia.com/Widget_API#MessageFrame)
+* [ScrollingMessageFrame](https://wow.gamepedia.com/Widget_API#ScrollingMessageFrame)
+
+###### 以下[LayeredRegion Derivatives](https://wow.gamepedia.com/Widget_API#LayeredRegion_Derivatives)还继承了[FontInstance](https://wow.gamepedia.com/Widget_API#FontInstance)类型的所有函数：
+
+* [FontString](https://wow.gamepedia.com/Widget_API#FontString)
+
 
 
