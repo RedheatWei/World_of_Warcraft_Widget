@@ -18,9 +18,9 @@ Region:GetCenter\(\) - 获取此框架中心的坐标 - Moved in 1.10.
 
 [Region:GetHeight](https://wow.gamepedia.com/API_Region_GetHeight)\(\) - 获取此对象的高度。
 
-[Region:GetLeft](https://wow.gamepedia.com/API_Region_GetLeft)\(\) - 获取此帧左边缘的x位置- Moved in 1.10.
+[Region:GetLeft](https://wow.gamepedia.com/API_Region_GetLeft)\(\) - 获取此框架左边缘的x位置- Moved in 1.10.
 
-Region:GetNumPoints\(\) - Get the number of anchor points for this frame - New in 1.10.
+Region:GetNumPoints\(\) - 获取此框架的锚点数 - New in 1.10.
 
 [Region:GetPoint](https://wow.gamepedia.com/API_Region_GetPoint)\(pointNum\) - Get details for an anchor point for this frame \(point, relativeTo, relativePoint, xofs, yofs\) - New in 1.10.
 
@@ -58,5 +58,5 @@ Region:SetSize\(width,height\) - Sets the width and the height of the object as 
 
 [Region:Show](https://wow.gamepedia.com/API_Region_Show)\(\) - Set this object to shown \(it will appear if its parent is visible\).
 
-Region:StopAnimating\(\) - Stops any active animations on the Region and its children. - New in 3.1.0
+Region:StopAnimating\(\) - Stops any active animations on the Region and its children. - New in 3.1.
 
