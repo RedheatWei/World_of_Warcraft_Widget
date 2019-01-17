@@ -36,13 +36,13 @@ Region:GetRect\(\) - 获取框架的左，底部，宽度，高度。
 
 Region:IsDragging\(\) - 如果正在拖动此Region或其Parent，则为True。-  3.1.0中的新功能
 
-[Region:IsProtected](https://wow.gamepedia.com/API_Region_IsProtected)\(\) - Determine if this object can be manipulated in certain ways by tainted code in combat or not
+[Region:IsProtected](https://wow.gamepedia.com/API_Region_IsProtected)\(\) -确定是否可以通过战斗中受污染的代码以某种方式操纵此对象
 
-[Region:IsShown](https://wow.gamepedia.com/API_Region_IsShown)\(\) - Determine if this object is shown \(would be visible if its parent was visible\).
+[Region:IsShown](https://wow.gamepedia.com/API_Region_IsShown)\(\) - 确定是否显示此对象（如果其父级可见，则可见）。
 
-[Region:IsVisible](https://wow.gamepedia.com/API_Region_IsVisible)\(\) - Get whether the object is visible on screen \(logically \(IsShown\(\) and GetParent\(\):IsVisible\(\)\)\);
+[Region:IsVisible](https://wow.gamepedia.com/API_Region_IsVisible)\(\) - 获取对象是否在屏幕上可见（逻辑上（IsShown\(\) and GetParent\(\):sVisible\(\)））;
 
-[Region:SetAllPoints](https://wow.gamepedia.com/API_Region_SetAllPoints)\(frame or "frameName"\) - Set all anchors to match edges of specified frame - Moved in 1.10.
+[Region:SetAllPoints](https://wow.gamepedia.com/API_Region_SetAllPoints)\(frame or "frameName"\) - 设置所有锚点以匹配指定框架的边缘 - 在1.10中移动。
 
 [Region:SetHeight](https://wow.gamepedia.com/API_Region_SetHeight)\(height\) - Set the height of the object.
 
