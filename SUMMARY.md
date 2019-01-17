@@ -7,4 +7,5 @@
   * [动画组](uidui-xiang-pai-sheng/dong-hua-zu.md)
   * [动画](uidui-xiang-pai-sheng/dong-hua.md)
   * [字体实例](uidui-xiang-pai-sheng/zi-ti-shi-li.md)
+  * [区域](uidui-xiang-pai-sheng/qu-yu.md)
 
