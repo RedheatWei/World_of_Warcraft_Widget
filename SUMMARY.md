@@ -22,4 +22,5 @@
 * [框架派生](kuang-jia-pai-sheng.md)
   * [按钮](kuang-jia-pai-sheng/an-niu.md)
   * [冷却](kuang-jia-pai-sheng/leng-que.md)
+  * [颜色选择](kuang-jia-pai-sheng/yan-se-xuan-ze.md)
 
