@@ -21,4 +21,5 @@
   * [分层区域](fen-ceng-qu-yu.md)
 * [框架派生](kuang-jia-pai-sheng.md)
   * [按钮](kuang-jia-pai-sheng/an-niu.md)
+  * [冷却](kuang-jia-pai-sheng/leng-que.md)
 
