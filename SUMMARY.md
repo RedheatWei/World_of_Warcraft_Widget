@@ -23,4 +23,5 @@
   * [按钮](kuang-jia-pai-sheng/an-niu.md)
   * [冷却](kuang-jia-pai-sheng/leng-que.md)
   * [颜色选择](kuang-jia-pai-sheng/yan-se-xuan-ze.md)
+  * [编辑框](kuang-jia-pai-sheng/bian-ji-kuang.md)
 
