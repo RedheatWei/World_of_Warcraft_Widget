@@ -42,33 +42,33 @@ Button:LockHighlight\(\) - 将按钮设置为始终突出显示。
 
 [Button:RegisterForClicks](https://wow.gamepedia.com/API_Button_RegisterForClicks)\("clickType"\[,"clickType"...\]\) - 指定哪个鼠标按钮向上/向下操作会导致此按钮接收OnClick通知。
 
-Button:SetButtonState\("state"\[, lock\]\) - Set the state of the Button \("PUSHED", "NORMAL"\) and whether it is locked.
+Button:SetButtonState\("state"\[, lock\]\) - 设置按钮的状态（“PUSHED”，“NORMAL”）以及是否锁定。
 
-Button:SetDisabledFontObject\(\[font\]\) - Set the font object for settings when disabled - New in 1.10.
+Button:SetDisabledFontObject\(\[font\]\) - 禁用时设置“设置”的字体对象 -  1.10中的新增功能。
 
-Button:SetDisabledTexture\(texture or "texturePath"\) - Set the disabled texture for the Button - Updated in 1.10.
+Button:SetDisabledTexture\(texture or "texturePath"\) - 为Button设置禁用的纹理 - 在1.10中更新。
 
-[Button:SetFont](https://wow.gamepedia.com/API_Button_SetFont)\("font", size\[,"flags"\]\) - Set the font to use for display.
+[Button:SetFont](https://wow.gamepedia.com/API_Button_SetFont)\("font", size\[,"flags"\]\) - 设置用于显示的字体。
 
-Button:SetFontString\(fontString\) - Set the button's label FontString - New in 1.11.
+Button:SetFontString\(fontString\) - 设置按钮的标签FontString  -  1.11中的新增功能。
 
-Button:SetFormattedText\("formatstring"\[, ...\]\) - Set the formatted text label for the Button. - New in 2.3.
+Button:SetFormattedText\("formatstring"\[, ...\]\) -  设置Button的格式化文本标签。-  2.3中的新功能。
 
-Button:SetHighlightFontObject\(\[font\]\) - Set the font object for settings when highlighted - New in 1.10.
+Button:SetHighlightFontObject\(\[font\]\) - 突出显示时设置设置的字体对象 -  1.10中的新增内容。
 
-Button:SetHighlightTexture\(texture or "texturePath"\[,alphaMode\]\) - Set the highlight texture for the Button.
+Button:SetHighlightTexture\(texture or "texturePath"\[,alphaMode\]\) - 设置Button的高亮纹理。
 
-Button:SetMotionScriptsWhileDisabled\(\[bool\]\) - Set whether button should fire its OnEnter and OnLeave scripts even while disabled - New in 3.3.
+Button:SetMotionScriptsWhileDisabled\(\[bool\]\) - 设置按钮是否应在禁用时触发其OnEnter和OnLeave脚本 -  3.3中的新增功能。
 
-[Button:SetNormalTexture](https://wow.gamepedia.com/API_Button_SetNormalTexture)\(texture or "texturePath"\) - Set the normal texture for the Button - Updated in 1.10.
+[Button:SetNormalTexture](https://wow.gamepedia.com/API_Button_SetNormalTexture)\(texture or "texturePath"\) - 设置按钮的正常纹理 - 在1.10中更新。
 
-[Button:SetNormalFontObject](https://wow.gamepedia.com/API_Button_SetNormalFontObject)\(FontObject\) - Set the Font Object of the button.
+[Button:SetNormalFontObject](https://wow.gamepedia.com/API_Button_SetNormalFontObject)\(FontObject\) - 设置按钮的字体对象。
 
-Button:SetPushedTextOffset\(x, y\) - Set the text offset for this button when pushed - New in 1.11.
+Button:SetPushedTextOffset\(x, y\) - 按下时设置此按钮的文本偏移量 -  1.11中的新值。
 
-Button:SetPushedTexture\(texture or "texturePath"\) - Set the pushed texture for the Button - Updated in 1.10.
+Button:SetPushedTexture\(texture or "texturePath"\) - 设置Button的推送纹理 - 在1.10中更新。
 
-[Button:SetText](https://wow.gamepedia.com/API_Button_SetText)\("text"\) - Set the text label for the Button.
+[Button:SetText](https://wow.gamepedia.com/API_Button_SetText)\("text"\) - 设置Button的文本标签。
 
-Button:UnlockHighlight\(\) - Set the Button to not always be drawn highlighted.
+Button:UnlockHighlight\(\) - 将按钮设置为不总是突出显示。
 
