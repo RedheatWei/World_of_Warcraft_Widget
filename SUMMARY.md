@@ -37,4 +37,10 @@
 * 按钮派生
   * [复选框](fu-xuan-kuang.md)
   * [劫掠按钮](jie-lve-an-niu.md)
+* [模型派生](mo-xing-pai-sheng.md)
+  * [玩家模型](mo-xing-pai-sheng/wan-jia-mo-xing.md)
+* 玩家模型派生
+  * [装扮模型](zhuang-ban-mo-xing.md)
+  * [战袍模型](zhan-pao-mo-xing.md)
+  * [电影模型](dian-ying-mo-xing.md)
 
