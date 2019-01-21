@@ -45,4 +45,11 @@
   * [电影模型](dian-ying-mo-xing.md)
 * 分层区域派生
   * [纹理](wen-li.md)
+  * [字体字符串](zi-ti-zi-fu-chuan.md)
+* 纹理派生
+  * [线](xian.md)
+  * [面具纹理](mian-ju-wen-li.md)
+* [特殊](te-shu.md)
+  * [世界框架](te-shu/shi-jie-kuang-jia.md)
+  * [FrameXML虚拟框架](te-shu/framexmlxu-ni-kuang-jia.md)
 
