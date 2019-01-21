@@ -26,4 +26,5 @@
   * [编辑框](kuang-jia-pai-sheng/bian-ji-kuang.md)
   * [游戏提示](kuang-jia-pai-sheng/you-xi-ti-shi.md)
   * [消息框架](kuang-jia-pai-sheng/xiao-xi-kuang-jia.md)
+  * [小地图](kuang-jia-pai-sheng/xiao-di-tu.md)
 
