@@ -32,4 +32,9 @@
   * [滚动框架](kuang-jia-pai-sheng/gun-dong-kuang-jia.md)
   * [滚动消息框架](kuang-jia-pai-sheng/gun-dong-xiao-xi-kuang-jia.md)
   * [简单HTML](kuang-jia-pai-sheng/jian-dan-html.md)
+  * [滑块](kuang-jia-pai-sheng/hua-kuai.md)
+  * [状态栏](kuang-jia-pai-sheng/zhuang-tai-lan.md)
+* 按钮派生
+  * [复选框](fu-xuan-kuang.md)
+  * [劫掠按钮](jie-lve-an-niu.md)
 
