@@ -6,53 +6,53 @@
 
 [GameTooltip:AddDoubleLine](https://wow.gamepedia.com/API_GameTooltip_AddDoubleLine)\(textL, textR, rL, gL, bL, rR, gR, bR\)
 
-GameTooltip:AddFontStrings\(leftstring, rightstring\) - Dynamically expands the size of a tooltip - New in 1.11.
+GameTooltip:AddFontStrings\(leftstring, rightstring\) - 动态扩展工具提示的大小 -  1.11中的新增功能。
 
-[GameTooltip:AddLine](https://wow.gamepedia.com/API_GameTooltip_AddLine)\("tooltipText" \[, textColor.r, textColor.g, textColor.b \[, wrapText\]\]\) - Appends the new line to the tooltip.
+[GameTooltip:AddLine](https://wow.gamepedia.com/API_GameTooltip_AddLine)\("tooltipText" \[, textColor.r, textColor.g, textColor.b \[, wrapText\]\]\) - 将新行添加到工具提示中。
 
 GameTooltip:AddSpellByID\(spellID\) -
 
-[GameTooltip:AddTexture](https://wow.gamepedia.com/API_GameTooltip_AddTexture)\("texture"\) - Add a texture to the last line added.
+[GameTooltip:AddTexture](https://wow.gamepedia.com/API_GameTooltip_AddTexture)\("texture"\) - 在添加的最后一行添加纹理。
 
 GameTooltip:AdvanceSecondaryCompareItem\(\) -
 
-GameTooltip:AppendText\("text"\) - Append text to the end of the first line of the tooltip.
+GameTooltip:AppendText\("text"\) - 将文本附加到工具提示第一行的末尾。
 
-[GameTooltip:ClearLines](https://wow.gamepedia.com/API_GameTooltip_ClearLines)\(\) - Clear all lines of tooltip \(both left and right ones\)
+[GameTooltip:ClearLines](https://wow.gamepedia.com/API_GameTooltip_ClearLines)\(\) - 清除所有工具提示行（左右两行）
 
 [GameTooltip:FadeOut](https://wow.gamepedia.com/API_GameTooltip_FadeOut)\(\) -
 
-GameTooltip:GetAnchorType\(\) - Returns the current anchoring type.
+GameTooltip:GetAnchorType\(\) - 返回当前锚定类型。
 
-[GameTooltip:GetItem](https://wow.gamepedia.com/API_GameTooltip_GetItem)\(\) - Returns name, link.
+[GameTooltip:GetItem](https://wow.gamepedia.com/API_GameTooltip_GetItem)\(\) - 返回名称，链接。
 
 GameTooltip:GetMinimumWidth\(\) -
 
-GameTooltip:GetOwner\(\) - Returns owner frame, anchor.
+GameTooltip:GetOwner\(\) - 返回所有者框架，锚点。
 
 GameTooltip:GetPadding\(\) -
 
-[GameTooltip:GetSpell](https://wow.gamepedia.com/API_GameTooltip_GetSpell)\(\) - Returns name, rank, id.
+[GameTooltip:GetSpell](https://wow.gamepedia.com/API_GameTooltip_GetSpell)\(\) - 返回name，rank，id。
 
-GameTooltip:GetUnit\(\) - Returns unit name, unit id.
+GameTooltip:GetUnit\(\) - 返回 unit name, unit id.
 
 GameTooltip:IsEquippedItem\(\) -
 
-GameTooltip:IsUnit\("unit"\) - Returns bool.
+GameTooltip:IsUnit\("unit"\) - 返回布尔值.
 
-[GameTooltip:NumLines](https://wow.gamepedia.com/API_GameTooltip_NumLines)\(\) - Get the number of lines in the tooltip.
+[GameTooltip:NumLines](https://wow.gamepedia.com/API_GameTooltip_NumLines)\(\) - 获取工具提示中的行数。
 
 GameTooltip:ResetSecondaryCompareItem\(\) -
 
 GameTooltip:SetAchievementByID\(id\) -
 
-[GameTooltip:SetAction](https://wow.gamepedia.com/API_GameTooltip_SetAction)\(slot\) - Shows the tooltip for the specified action button.
+[GameTooltip:SetAction](https://wow.gamepedia.com/API_GameTooltip_SetAction)\(slot\) - 显示指定操作按钮的工具提示。
 
 GameTooltip:SetAnchorType\(anchorType \[,Xoffset\] \[,Yoffset\]\) -
 
 GameTooltip:SetAuctionCompareItem\("type", index\[, offset\]\)
 
-GameTooltip:SetAuctionItem\("type", index\) - Shows the tooltip for the specified auction item.
+GameTooltip:SetAuctionItem\("type", index\) - 显示指定拍卖项目的工具提示。
 
 [GameTooltip:SetAuctionSellItem](https://wow.gamepedia.com/API_GameTooltip_SetAuctionSellItem)\(\) -
 
@@ -66,29 +66,29 @@ GameTooltip:SetCompareItem\(shoppingTooltipTwo, primaryMouseover\) -
 
 GameTooltip:SetCurrencyByID\(id\) -
 
-[GameTooltip:SetCurrencyToken](https://wow.gamepedia.com/API_GameTooltip_SetCurrencyToken)\(tokenId\) - Shows the tooltip for the specified token
+[GameTooltip:SetCurrencyToken](https://wow.gamepedia.com/API_GameTooltip_SetCurrencyToken)\(tokenId\) - 显示指定标记的工具提示
 
 GameTooltip:SetCurrencyTokenByID\(currencyID\) -
 
-GameTooltip:SetEquipmentSet\(name\) - Shows details for the equipment manager set identified by name.
+GameTooltip:SetEquipmentSet\(name\) - 显示按名称标识的设备管理器集的详细信息。
 
 GameTooltip:SetExistingSocketGem\(index, \[toDestroy\]\) -
 
-[GameTooltip:SetFrameStack](https://wow.gamepedia.com/API_GameTooltip_SetFrameStack)\(showhidden\) - Shows the mouseover frame stack, used for debugging.
+[GameTooltip:SetFrameStack](https://wow.gamepedia.com/API_GameTooltip_SetFrameStack)\(showhidden\) - 显示用于调试的鼠标悬停框架堆栈。
 
 GameTooltip:SetGlyph\(id\) -
 
 GameTooltip:SetGlyphByID\(glyphID\) -
 
-GameTooltip:SetGuildBankItem\(tab, id\) - Shows the tooltip for the specified guild bank item
+GameTooltip:SetGuildBankItem\(tab, id\) - 显示指定公会银行项目的工具提示
 
 GameTooltip:SetHeirloomByItemID\(itemID\) -
 
-[GameTooltip:SetHyperlink](https://wow.gamepedia.com/API_GameTooltip_SetHyperlink)\("itemString" or "itemLink"\) - Changes the item which is displayed in the tooltip according to the passed argument.
+[GameTooltip:SetHyperlink](https://wow.gamepedia.com/API_GameTooltip_SetHyperlink)\("itemString" or "itemLink"\) - 根据传递的参数更改工具提示中显示的项目。
 
-REMOVED GameTooltip:SetHyperlinkCompareItem\("itemLink", index\) - Sets a comparison tooltip to show the index'th comparison item to the item specified as link. Will return a true value if there is an index'th comparison item \(index is 1 through 3\)
+REMOVED GameTooltip:SetHyperlinkCompareItem\("itemLink", index\) - 设置比较工具提示以显示指定为链接的项目的索引比较项目。如果存在索引比较项（索引为1到3），则返回真值GameTooltip：SetInboxItem（index） - 显示指定邮件收件箱项的工具提示。
 
-[GameTooltip:SetInboxItem](https://wow.gamepedia.com/API_GameTooltip_SetInboxItem)\(index\) - Shows the tooltip for the specified mail inbox item.
+[GameTooltip:SetInboxItem](https://wow.gamepedia.com/API_GameTooltip_SetInboxItem)\(index\) - 显示指定邮件收件箱项的工具提示。
 
 GameTooltip:SetInstanceLockEncountersComplete\(index\) -
 
@@ -96,7 +96,7 @@ GameTooltip:SetInstanceLockEncountersComplete\(index\) -
 
 GameTooltip:SetInventoryItemByID\(itemID\) -
 
-GameTooltip:SetItemByID\(itemID\) - Shows the tooltip for a specified Item ID. \(added in 4.2.0.14002 along with the Encounter Journal\)
+GameTooltip:SetItemByID\(itemID\) - 显示指定项ID的工具提示。 \(added in [4.2.0.14002](http://github.com/tekkub/wow-ui-source/commit/bd6faf4e8ccc4138d3c686bf9ee361e20f4a6531#L48R641) along with the [Encounter Journal](https://wow.gamepedia.com/World_of_Warcraft_API#Encounter_Journal_Functions)\)
 
 GameTooltip:SetLFGCompletionReward\(lootIndex\) -
 
@@ -108,7 +108,7 @@ GameTooltip:SetLootCurrency\(lootSlot\) -
 
 [GameTooltip:SetLootItem](https://wow.gamepedia.com/API_GameTooltip_SetLootItem)\(lootSlot\) -
 
-GameTooltip:SetLootRollItem\(id\) - Shows the tooltip for the specified loot roll item.
+GameTooltip:SetLootRollItem\(id\) - 显示指定的战利品卷项目的工具提示。
 
 REMOVED GameTooltip:SetMerchantCompareItem\("slot"\[, offset\]\)
 
@@ -126,7 +126,7 @@ GameTooltip:SetMountBySpellID\(\) -
 
 [GameTooltip:SetPadding](https://wow.gamepedia.com/API_GameTooltip_SetPadding)\(\) -
 
-GameTooltip:SetPetAction\(slot\) - Shows the tooltip for the specified pet action.
+GameTooltip:SetPetAction\(slot\) - 显示指定宠物动作的工具提示。
 
 GameTooltip:SetPossession\(slot\) -
 
@@ -140,29 +140,29 @@ GameTooltip:SetQuestLogCurrency\("type", index\) -
 
 GameTooltip:SetQuestLogItem\("type", index\)
 
-GameTooltip:SetQuestLogRewardSpell - Shows the tooltip for the spell reward of the currently selected quest.
+GameTooltip:SetQuestLogRewardSpell - 显示当前所选任务的法术奖励的工具提示。
 
 GameTooltip:SetQuestLogSpecialItem\(index\) -
 
 GameTooltip:SetQuestRewardSpell
 
-REMOVED [GameTooltip:SetReforgeItem](https://wow.gamepedia.com/API_GameTooltip_SetReforgeItem) - Shows the tooltip for the [reforge item](https://wow.gamepedia.com/API_GetReforgeItemInfo)
+REMOVED [GameTooltip:SetReforgeItem](https://wow.gamepedia.com/API_GameTooltip_SetReforgeItem) - 显示[重新锻造项目](https://wow.gamepedia.com/API_GetReforgeItemInfo)的工具提示
 
 GameTooltip:SetSendMailItem\(\) -
 
-GameTooltip:SetShapeshift\(slot\) - Shows the tooltip for the specified shapeshift form.
+GameTooltip:SetShapeshift\(slot\) - 显示指定shapeshift表单的工具提示。
 
 GameTooltip:SetSocketedItem\(\) -
 
 GameTooltip:SetSocketGem\(index\) -
 
-[GameTooltip:SetSpellBookItem](https://wow.gamepedia.com/API_GameTooltip_SetSpellBookItem)\(spellId, bookType\) - Shows the tooltip for the specified spell in the spellbook.
+[GameTooltip:SetSpellBookItem](https://wow.gamepedia.com/API_GameTooltip_SetSpellBookItem)\(spellId, bookType\) -显示法术书中指定法术的工具提示。
 
-GameTooltip:SetSpellByID\(spellId\) - Shows the tooltip for the specified spell by global spell ID.
+GameTooltip:SetSpellByID\(spellId\) - 按全局拼写ID显示指定拼写的工具提示。
 
-[GameTooltip:SetTalent](https://wow.gamepedia.com/API_GameTooltip_SetTalent)\(talentIndex \[, isInspect, talentGroup, inspectedUnit, classId\]\) - Shows the tooltip for the specified talent.
+[GameTooltip:SetTalent](https://wow.gamepedia.com/API_GameTooltip_SetTalent)\(talentIndex \[, isInspect, talentGroup, inspectedUnit, classId\]\) - 显示指定天赋的工具提示。
 
-[GameTooltip:SetText](https://wow.gamepedia.com/API_GameTooltip_SetText)\("text", r, g, b\[, alphaValue\[, textWrap\]\]\) - Set the text of the tooltip.
+[GameTooltip:SetText](https://wow.gamepedia.com/API_GameTooltip_SetText)\("text", r, g, b\[, alphaValue\[, textWrap\]\]\) - 设置工具提示的文本。
 
 GameTooltip:SetTotem\(slot\) -
 
@@ -178,23 +178,23 @@ GameTooltip:SetTradeTargetItem\(tradeSlot\) -
 
 GameTooltip:SetTrainerService\(index\) -
 
-[GameTooltip:SetTransmogrifyItem](https://wow.gamepedia.com/API_GameTooltip_SetTransmogrifyItem)\(slotId\) - Shows the tooltip when there is a pending \(de\)transmogrification
+[GameTooltip:SetTransmogrifyItem](https://wow.gamepedia.com/API_GameTooltip_SetTransmogrifyItem)\(slotId\) - 在有（de\)变形时显示工具提示
 
-[GameTooltip:SetUnit](https://wow.gamepedia.com/API_GameTooltip_SetUnit) - Shows the tooltip for a particular unit
+[GameTooltip:SetUnit](https://wow.gamepedia.com/API_GameTooltip_SetUnit) - 显示特定单元的工具提示
 
-[GameTooltip:SetUnitAura](https://wow.gamepedia.com/API_GameTooltip_SetUnitAura)\("[unitId](https://wow.gamepedia.com/UnitId)", auraIndex\[, filter\]\) - Shows the tooltip for a unit's aura. \(Exclusive to 3.x.x / WotLK\)
+[GameTooltip:SetUnitAura](https://wow.gamepedia.com/API_GameTooltip_SetUnitAura)\("[unitId](https://wow.gamepedia.com/UnitId)", auraIndex\[, filter\]\) - 显示单位光环的工具提示。（3.x.x / WLK独家）
 
-[GameTooltip:SetUnitBuff](https://wow.gamepedia.com/API_GameTooltip_SetUnitBuff)\("[unitId](https://wow.gamepedia.com/UnitId)", buffIndex\[, raidFilter\]\) - Shows the tooltip for a unit's buff.
+[GameTooltip:SetUnitBuff](https://wow.gamepedia.com/API_GameTooltip_SetUnitBuff)\("[unitId](https://wow.gamepedia.com/UnitId)", buffIndex\[, raidFilter\]\) - 显示单位buff的工具提示。
 
 [GameTooltip:SetUnitConsolidatedBuff](https://wow.gamepedia.com/API_GameTooltip_SetUnitConsolidatedBuff)\("unit", buffIndex\) -
 
-[GameTooltip:SetUnitDebuff](https://wow.gamepedia.com/API_GameTooltip_SetUnitDebuff)\("[unitId](https://wow.gamepedia.com/UnitId)", buffIndex\[, raidFilter\]\) - Shows the tooltip for a unit's debuff.
+[GameTooltip:SetUnitDebuff](https://wow.gamepedia.com/API_GameTooltip_SetUnitDebuff)\("[unitId](https://wow.gamepedia.com/UnitId)", buffIndex\[, raidFilter\]\) -显示单位debuff的工具提示。
 
 [GameTooltip:SetUpgradeItem](https://wow.gamepedia.com/API_GameTooltip_SetUpgradeItem)\(\) -
 
-GameTooltip:SetVoidDepositItem\(slotIndex\) - Shows the tooltip for the specified Void Transfer [deposit slot](https://wow.gamepedia.com/API_GetVoidTransferDepositInfo) \(added in 4.3.0\)
+GameTooltip:SetVoidDepositItem\(slotIndex\) - 显示指定的Void Transfer[存款槽](https://wow.gamepedia.com/API_GetVoidTransferDepositInfo)的工具提示（在4.3.0中添加）
 
-GameTooltip:SetVoidItem\(slotIndex\) - Shows the tooltip for the specified Void Storage [slot](https://wow.gamepedia.com/API_GetVoidItemInfo) \(added in 4.3.0\)
+GameTooltip:SetVoidItem\(slotIndex\) - 显示指定Void存储[槽](https://wow.gamepedia.com/API_GetVoidItemInfo)的工具提示（在4.3.0中添加）
 
-GameTooltip:SetVoidWithdrawalItem\(slotIndex\) - Shows the tooltip for the specified Void Transfer [withdrawal slot](https://wow.gamepedia.com/API_GetVoidTransferWithdrawalInfo) \(added in 4.3.0\)
+GameTooltip:SetVoidWithdrawalItem\(slotIndex\) - 显示指定的Void Transfer[提取槽](https://wow.gamepedia.com/API_GetVoidTransferWithdrawalInfo)的工具提示（在4.3.0中添加）
 

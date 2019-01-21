@@ -25,4 +25,5 @@
   * [颜色选择](kuang-jia-pai-sheng/yan-se-xuan-ze.md)
   * [编辑框](kuang-jia-pai-sheng/bian-ji-kuang.md)
   * [游戏提示](kuang-jia-pai-sheng/you-xi-ti-shi.md)
+  * [消息框架](kuang-jia-pai-sheng/xiao-xi-kuang-jia.md)
 
