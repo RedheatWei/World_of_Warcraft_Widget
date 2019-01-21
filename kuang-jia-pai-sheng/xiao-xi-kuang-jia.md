@@ -20,5 +20,5 @@ MessageFrame:SetFading\(status\) - 设置框架是否淡出消息 - 1.11中的�
 
 MessageFrame:SetInsertMode\("TOP" or "BOTTOM"\) - 设置插入新消息的位置 - 1.11中的新功能。
 
-MessageFrame:SetTimeVisible\(seconds\) - 设置消息可见性时间  1.11中的新功能。
+MessageFrame:SetTimeVisible\(seconds\) - 设置消息可见性时间 -  1.11中的新功能。
 
