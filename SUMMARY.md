@@ -43,4 +43,6 @@
   * [装扮模型](zhuang-ban-mo-xing.md)
   * [战袍模型](zhan-pao-mo-xing.md)
   * [电影模型](dian-ying-mo-xing.md)
+* 分层区域派生
+  * [纹理](wen-li.md)
 
