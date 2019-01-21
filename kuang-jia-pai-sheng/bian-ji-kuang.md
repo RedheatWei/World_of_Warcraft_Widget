@@ -20,65 +20,63 @@ EditBox:GetHistoryLines\(\) - 获取此编辑框的历史记录行数
 
 [EditBox:GetInputLanguage](https://wow.gamepedia.com/API_EditBox_GetInputLanguage)\(\) - 获取输入语言（不基于游戏的语言环境）
 
-EditBox:GetMaxBytes\(\) - 获取EditBox中允许的最大字节数 -  1.11中的新增。
+EditBox:GetMaxBytes\(\) - 获取EditBox中允许的最大字节数 -  1.11中的新增功能。
 
-EditBox:GetMaxLetters\(\) - 获取EditBox中允许的最大字母数 -  1.11中的新增字母。
+EditBox:GetMaxLetters\(\) - 获取EditBox中允许的最大字母数 -  1.11中的新增功能。
 
 EditBox:GetNumLetters\(\) - 获取框中的字母数。
 
 [EditBox:GetNumber](https://wow.gamepedia.com/API_EditBox_GetNumber)\(\)
 
-[EditBox:GetText](https://wow.gamepedia.com/API_EditBox_GetText)\(\) - Get the current text contained in the edit box.
+[EditBox:GetText](https://wow.gamepedia.com/API_EditBox_GetText)\(\) - 获取编辑框中包含的当前文本。
 
-[EditBox:GetTextInsets](https://wow.gamepedia.com/API_EditBox_GetTextInsets)\(\) - Gets the text display insets for the EditBox - New in 1.11.
+[EditBox:GetTextInsets](https://wow.gamepedia.com/API_EditBox_GetTextInsets)\(\) - 获取编辑框的文本显示插入 -  1.11中的新增功能。
 
-EditBox:HasFocus\(\) - Returns whether the edit box is currently being edited \(has edit focus\).
+EditBox:HasFocus\(\) - 返回当前是否正在编辑编辑框（具有编辑焦点）。
 
-[EditBox:HighlightText](https://wow.gamepedia.com/API_EditBox_HighlightText)\(\[startPos, endPos\]\) - Set the highlight to all or some of the edit box text.
+[EditBox:HighlightText](https://wow.gamepedia.com/API_EditBox_HighlightText)\(\[startPos, endPos\]\) - 将突出显示设置为全部或部分编辑框文本。
 
-[EditBox:Insert](https://wow.gamepedia.com/API_EditBox_Insert)\("text"\) - Insert text into the edit box.
+[EditBox:Insert](https://wow.gamepedia.com/API_EditBox_Insert)\("text"\) - 将文本插入编辑框。
 
-EditBox:IsAutoFocus\(\) - Determine if the EditBox has autofocus enabled - New in 1.11.
+EditBox:IsAutoFocus\(\) - 确定EditBox是否启用了自动对焦 -  1.11中的新增功能。
 
-EditBox:IsMultiLine\(\) - Determine if the EditBox accepts multiple lines - New in 1.11.
+EditBox:IsMultiLine\(\) - 确定EditBox是否接受多行 -  1.11中的新增内容。
 
-EditBox:IsNumeric\(\) - Determine if the EditBox only accepts numeric input - New in 1.11.
+EditBox:IsNumeric\(\) - 确定EditBox是否只接受数字输入 -  1.11中的新增内容。
 
-EditBox:IsPassword\(\) - Determine if the EditBox performs password masking - New in 1.11.
+EditBox:IsPassword\(\) - 确定EditBox是否执行密码屏蔽 -  1.11中的新增功能。
 
-EditBox:SetAltArrowKeyMode\(enable\) - Make only alt+arrow keys work for navigating the edit box, not arrow keys alone.
+EditBox:SetAltArrowKeyMode\(enable\) - 只使用alt +箭头键可以导航编辑框，而不是单独使用箭头键。
 
-[EditBox:SetAutoFocus](https://wow.gamepedia.com/API_EditBox_SetAutoFocus)\(state\) - Set whether or not the editbox will attempt to get input focus when it gets shown \(default: yes\) - New in 1.11.
+[EditBox:SetAutoFocus](https://wow.gamepedia.com/API_EditBox_SetAutoFocus)\(state\) - 设置编辑框是否会在显示时尝试获取输入焦点（默认值：是） -  1.11中的新增内容。
 
 EditBox:SetBlinkSpeed
 
-[EditBox:SetCursorPosition](https://wow.gamepedia.com/API_EditBox_SetCursorPosition)\(position\) - Set the position of the cursor within the EditBox - New in 2.3.
+[EditBox:SetCursorPosition](https://wow.gamepedia.com/API_EditBox_SetCursorPosition)\(position\) - 在EditBox中设置光标的位置 -  2.3中的新增内容。
 
-EditBox:SetFocus\(\) - Move input focus \(the cursor\) to this editbox
+EditBox:SetFocus\(\) - 将输入焦点（光标）移动到此编辑框
 
-[EditBox:SetFont](https://wow.gamepedia.com/API_EditBox_SetFont)\("font", size\[,"flags"\]\) - Set the font to use for display.
+[EditBox:SetFont](https://wow.gamepedia.com/API_EditBox_SetFont)\("font", size\[,"flags"\]\) - 设置用于显示的字体。
 
-EditBox:SetHistoryLines\(\) - Set the number of history lines to remember.
+EditBox:SetHistoryLines\(\) - 设置要记住的历史记录行数。
 
-[EditBox:SetHyperlinksEnabled](https://wow.gamepedia.com/API_EditBox_SetHyperlinksEnabled)\(enableFlag\) - Set whether the EditBox triggers hyperlink script handlers.
+[EditBox:SetHyperlinksEnabled](https://wow.gamepedia.com/API_EditBox_SetHyperlinksEnabled)\(enableFlag\) - 设置EditBox是否触发超链接脚本处理程序。
 
-EditBox:SetMaxBytes\(maxBytes\) - Set the maximum byte size for entered text.
+EditBox:SetMaxBytes\(maxBytes\) - 设置输入文本的最大字节大小。
 
-[EditBox:SetMaxLetters](https://wow.gamepedia.com/API_EditBox_SetMaxLetters)\(maxLetters\) - Set the maximum number of letters for entered text.
+[EditBox:SetMaxLetters](https://wow.gamepedia.com/API_EditBox_SetMaxLetters)\(maxLetters\) - 设置输入文本的最大字母数。
 
-EditBox:SetMultiLine\(state\) - Set the EditBox's multi-line state - New in 1.11.
+EditBox:SetMultiLine\(state\) - 设置EditBox的多行状态 -  1.11中的新建。
 
 EditBox:SetNumber\(number\)
 
-EditBox:SetNumeric\(state\) - Set if the EditBox only accepts numeric input - New in 1.11.
+EditBox:SetNumeric\(state\) - 如果EditBox仅接受数字输入，则设置 -  1.11中的新建。
 
-EditBox:SetPassword\(state\) - Set the EditBox's password masking state - New in 1.11.
+EditBox:SetPassword\(state\) - 设置EditBox的密码屏蔽状态 -  1.11中的新建。
 
-[EditBox:SetText](https://wow.gamepedia.com/API_EditBox_SetText)\("text"\) - Set the text contained in the edit box.
+[EditBox:SetText](https://wow.gamepedia.com/API_EditBox_SetText)\("text"\) - 设置编辑框中包含的文本。
 
 [EditBox:SetTextInsets](https://wow.gamepedia.com/API_EditBox_SetTextInsets)\(l, r, t, b\)
 
 EditBox:ToggleInputLanguage\(\)
-
-
 
