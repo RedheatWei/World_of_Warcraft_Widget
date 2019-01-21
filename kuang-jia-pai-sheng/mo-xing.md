@@ -22,35 +22,35 @@ Model:GetLight\(\) -获取模型的灯光规范，返回与SetLight方法兼容�
 
 [Model:GetModelFileID](https://wow.gamepedia.com/API_Model_GetModelFileID)\(\) - 获取此Model的模型文件ID -  7.0新增, 替换 Model:GetModel\(\).
 
-Model:GetModelScale\(\) - Returns the current mesh scaling factor.
+Model:GetModelScale\(\) - 返回当前网格缩放系数。
 
-Model:GetPosition\(\) - Returns the current position of the mesh as x, y, z
+Model:GetPosition\(\) - 将网格的当前位置返回为x，y，z
 
 Model:ReplaceIconTexture\("texture"\)
 
-[Model:SetCamera](https://wow.gamepedia.com/API_Model_SetCamera)\(index\) - Select a pre-defined camera.
+[Model:SetCamera](https://wow.gamepedia.com/API_Model_SetCamera)\(index\) - 选择预定义的摄像头。
 
-[Model:SetFacing](https://wow.gamepedia.com/API_Model_SetFacing)\(facing\) - Set the direction that the model is facing.
+[Model:SetFacing](https://wow.gamepedia.com/API_Model_SetFacing)\(facing\) - 设置模型面向的方向。
 
-[Model:SetFogColor](https://wow.gamepedia.com/API_Model_SetFogColor)\(r, g, b\[, a\]\) - Set the fog color and enable fogging.
+[Model:SetFogColor](https://wow.gamepedia.com/API_Model_SetFogColor)\(r, g, b\[, a\]\) - 设置雾色并启用雾化。
 
-[Model:SetFogFar](https://wow.gamepedia.com/API_Model_SetFogFar)\(value\) - Set the far-clipping plane distance for fogging.
+[Model:SetFogFar](https://wow.gamepedia.com/API_Model_SetFogFar)\(value\) - 设置雾化的远剪裁平面距离。
 
-[Model:SetFogNear](https://wow.gamepedia.com/API_Model_SetFogNear)\(value\) - Set the near-clipping plane distance for fogging.
+[Model:SetFogNear](https://wow.gamepedia.com/API_Model_SetFogNear)\(value\) - 设置雾化的近剪裁平面距离。
 
 Model:SetGlow\(...\) -
 
-[Model:SetLight](https://wow.gamepedia.com/API_Model_SetLight)\(enabled\[, omni, dirX, dirY, dirZ, ambIntensity\[, ambR, ambG, ambB\[, dirIntensity\[, dirR, dirG, dirB\]\]\]\]\) - Place the light source used for rendering
+[Model:SetLight](https://wow.gamepedia.com/API_Model_SetLight)\(enabled\[, omni, dirX, dirY, dirZ, ambIntensity\[, ambR, ambG, ambB\[, dirIntensity\[, dirR, dirG, dirB\]\]\]\]\) - 放置用于渲染的光源
 
-[Model:SetModel](https://wow.gamepedia.com/API_Model_SetModel)\("file"\) - Set the mesh that is displayed in the frame.
+[Model:SetModel](https://wow.gamepedia.com/API_Model_SetModel)\("file"\) - 设置框架中显示的网格。
 
-[Model:SetModelByFileID](https://wow.gamepedia.com/API_Model_SetModelByFileID)\("fileID"\) - Set the mesh that is displayed in the frame using a file ID.
+[Model:SetModelByFileID](https://wow.gamepedia.com/API_Model_SetModelByFileID)\("fileID"\) - 使用文件ID设置框架中显示的网格。
 
-Model:SetModelScale\(scale\) - Sets the scale factor for the mesh before rendering.
+Model:SetModelScale\(scale\) - 在渲染之前设置网格的比例因子。
 
-[Model:SetPosition](https://wow.gamepedia.com/API_Model_SetPosition)\(x, y, z\) - Set the position of the mesh inside the frame's coordinate system.
+[Model:SetPosition](https://wow.gamepedia.com/API_Model_SetPosition)\(x, y, z\) - 在网格坐标系内设置网格的位置。
 
-[Model:SetSequence](https://wow.gamepedia.com/API_Model_SetSequence)\(sequence\) - Set the animation to be played.
+[Model:SetSequence](https://wow.gamepedia.com/API_Model_SetSequence)\(sequence\) - 设置要播放的动画。
 
 Model:SetSequenceTime\(sequence, time\)
 
