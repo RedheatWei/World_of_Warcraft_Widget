@@ -31,4 +31,5 @@
   * [关闭屏幕框架](kuang-jia-pai-sheng/guan-bi-ping-mu-kuang-jia.md)
   * [滚动框架](kuang-jia-pai-sheng/gun-dong-kuang-jia.md)
   * [滚动消息框架](kuang-jia-pai-sheng/gun-dong-xiao-xi-kuang-jia.md)
+  * [简单HTML](kuang-jia-pai-sheng/jian-dan-html.md)
 
