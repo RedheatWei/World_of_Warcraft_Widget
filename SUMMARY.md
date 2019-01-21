@@ -28,4 +28,7 @@
   * [消息框架](kuang-jia-pai-sheng/xiao-xi-kuang-jia.md)
   * [小地图](kuang-jia-pai-sheng/xiao-di-tu.md)
   * [模型](kuang-jia-pai-sheng/mo-xing.md)
+  * [关闭屏幕框架](kuang-jia-pai-sheng/guan-bi-ping-mu-kuang-jia.md)
+  * [滚动框架](kuang-jia-pai-sheng/gun-dong-kuang-jia.md)
+  * [滚动消息框架](kuang-jia-pai-sheng/gun-dong-xiao-xi-kuang-jia.md)
 
