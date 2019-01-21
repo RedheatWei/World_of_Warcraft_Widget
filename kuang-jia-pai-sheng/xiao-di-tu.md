@@ -41,7 +41,7 @@ Minimap:SetIconTexture\(textureFile\) -
 
 Minimap:SetMaskTexture\(textureFile\) -
 
-REMOVED Minimap:SetPlayerModel\("file"\) - 设置要用于玩家模型的文件。 查看Minimap:SetPlayerTexture
+REMOVED Minimap:SetPlayerModel\("file"\) - 设置要用于玩家模型的文件。 查看[Minimap:SetPlayerTexture](https://wow.gamepedia.com/API_Minimap_SetPlayerTexture)
 
 [Minimap:SetPlayerTexture](https://wow.gamepedia.com/API_Minimap_SetPlayerTexture)\(textureFile\) - 设置要用于玩家箭头纹理的文件。
 
@@ -82,6 +82,4 @@ Minimap:SetTaskBlobRingTexture\(textureFile\) -
 [Minimap:SetZoom](https://wow.gamepedia.com/API_Minimap_SetZoom)\(\) - 设置当前缩放级别。
 
 Minimap:UpdateBlips\(\) -
-
-
 
