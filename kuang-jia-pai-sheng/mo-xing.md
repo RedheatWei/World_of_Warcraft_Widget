@@ -10,17 +10,17 @@ Model:ClearFog\(\) - 删除渲染中当前处于活动状态的所有雾化效�
 
 Model:ClearModel\(\) - 从模型中删除所有几何体（即使其为空）
 
-[Model:GetFacing](https://wow.gamepedia.com/API_Model_GetFacing)\(\) - Returns the direction the model is facing.
+[Model:GetFacing](https://wow.gamepedia.com/API_Model_GetFacing)\(\) - 返回模型面向的方向。
 
-Model:GetFogColor\(\) - Gets the fog color \(r, g, b, a\) - New in 1.11.
+Model:GetFogColor\(\) - 获取雾颜色（r，g，b，a） -  1.11中新增。
 
-Model:GetFogFar\(\) - Gets the fog far distance - New in 1.11.
+Model:GetFogFar\(\) - 获取雾远距离 - 1.11中新增。
 
-Model:GetFogNear\(\) - Gets the fog near distance - New in 1.11.
+Model:GetFogNear\(\) - 获取距离附近的雾 - 1.11中新增。
 
-Model:GetLight\(\) - Gets the light specification for the model, returns a list of results compatible with the SetLight method - New in 1.11.
+Model:GetLight\(\) -获取模型的灯光规范，返回与SetLight方法兼容的结果列表 - 1.11中新增。
 
-[Model:GetModelFileID](https://wow.gamepedia.com/API_Model_GetModelFileID)\(\) - Gets the model file ID for this Model - New in 7.0, replaces Model:GetModel\(\).
+[Model:GetModelFileID](https://wow.gamepedia.com/API_Model_GetModelFileID)\(\) - 获取此Model的模型文件ID -  7.0新增, 替换 Model:GetModel\(\).
 
 Model:GetModelScale\(\) - Returns the current mesh scaling factor.
 
@@ -59,7 +59,4 @@ Model:SetSequenceTime\(sequence, time\)
 [Model:HasAnimation](https://wow.gamepedia.com/API_Model_HasAnimation)\(animationID\)
 
 [Mode:FreezeAnimation](https://wow.gamepedia.com/API_Model_FreezeAnimation)\(animationID, \[variationID\], \[animationFrame\]\)
-
-  
-
 
